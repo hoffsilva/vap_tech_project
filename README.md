@@ -15,6 +15,7 @@ Filtering jobs.
 * Connection fail treatment: Alert user when the device doesn't has internet connection.
 * Infinite Scroll.
 * Connection with authenticjobs rest api.
+* TDD.
 
 ## Used Libraries
 
