@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		150035404F7DCE84913F8E4A /* Pods_VAP_JOBSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3CD8A64B8E707F0C25EDA9 /* Pods_VAP_JOBSTests.framework */; };
+		A000656AA12EBCDFC7C6BE44 /* Pods_VAP_JOBS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9D1BCB2D189962911EB429 /* Pods_VAP_JOBS.framework */; };
+		CACA82632012104E004804C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACA82622012104E004804C3 /* AppDelegate.swift */; };
+		CACA82652012104E004804C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACA82642012104E004804C3 /* ViewController.swift */; };
+		CACA82682012104E004804C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CACA82662012104E004804C3 /* Main.storyboard */; };
+		CACA826B2012104E004804C3 /* VAP_JOBS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CACA82692012104E004804C3 /* VAP_JOBS.xcdatamodeld */; };
+		CACA826D2012104E004804C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CACA826C2012104E004804C3 /* Assets.xcassets */; };
+		CACA82702012104E004804C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CACA826E2012104E004804C3 /* LaunchScreen.storyboard */; };
+		CACA827B2012104F004804C3 /* VAP_JOBSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACA827A2012104F004804C3 /* VAP_JOBSTests.swift */; };
+		CACA82872012136F004804C3 /* SwiftNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACA82862012136F004804C3 /* SwiftNotice.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CACA82772012104F004804C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CACA82572012104E004804C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CACA825E2012104E004804C3;
+			remoteInfo = "VAP-JOBS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C09BD7BC32BC67427E07792 /* Pods-VAP-JOBSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VAP-JOBSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VAP-JOBSTests/Pods-VAP-JOBSTests.release.xcconfig"; sourceTree = "<group>"; };
+		6E67CDADC88A85A23B471F09 /* Pods-VAP-JOBS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VAP-JOBS.release.xcconfig"; path = "Pods/Target Support Files/Pods-VAP-JOBS/Pods-VAP-JOBS.release.xcconfig"; sourceTree = "<group>"; };
+		7B9D1BCB2D189962911EB429 /* Pods_VAP_JOBS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VAP_JOBS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		999C70071CEFF74FA16F3685 /* Pods-VAP-JOBS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VAP-JOBS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VAP-JOBS/Pods-VAP-JOBS.debug.xcconfig"; sourceTree = "<group>"; };
+		C8AAD61F56BF6EE1B39CE37D /* Pods-VAP-JOBSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VAP-JOBSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VAP-JOBSTests/Pods-VAP-JOBSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CACA825F2012104E004804C3 /* VAP-JOBS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VAP-JOBS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CACA82622012104E004804C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CACA82642012104E004804C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CACA82672012104E004804C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CACA826A2012104E004804C3 /* VAP_JOBS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VAP_JOBS.xcdatamodel; sourceTree = "<group>"; };
+		CACA826C2012104E004804C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CACA826F2012104E004804C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CACA82712012104F004804C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CACA82762012104F004804C3 /* VAP-JOBSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VAP-JOBSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CACA827A2012104F004804C3 /* VAP_JOBSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VAP_JOBSTests.swift; sourceTree = "<group>"; };
+		CACA827C2012104F004804C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CACA82862012136F004804C3 /* SwiftNotice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNotice.swift; sourceTree = "<group>"; };
+		DA3CD8A64B8E707F0C25EDA9 /* Pods_VAP_JOBSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VAP_JOBSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CACA825C2012104E004804C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A000656AA12EBCDFC7C6BE44 /* Pods_VAP_JOBS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CACA82732012104F004804C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150035404F7DCE84913F8E4A /* Pods_VAP_JOBSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33F03EBFA508C6DA55D30F10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				999C70071CEFF74FA16F3685 /* Pods-VAP-JOBS.debug.xcconfig */,
+				6E67CDADC88A85A23B471F09 /* Pods-VAP-JOBS.release.xcconfig */,
+				C8AAD61F56BF6EE1B39CE37D /* Pods-VAP-JOBSTests.debug.xcconfig */,
+				5C09BD7BC32BC67427E07792 /* Pods-VAP-JOBSTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CACA82562012104E004804C3 = {
+			isa = PBXGroup;
+			children = (
+				CACA82612012104E004804C3 /* VAP-JOBS */,
+				CACA82792012104F004804C3 /* VAP-JOBSTests */,
+				CACA82602012104E004804C3 /* Products */,
+				33F03EBFA508C6DA55D30F10 /* Pods */,
+				FBE90667CAFA1ADE42CE3E4D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CACA82602012104E004804C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CACA825F2012104E004804C3 /* VAP-JOBS.app */,
+				CACA82762012104F004804C3 /* VAP-JOBSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CACA82612012104E004804C3 /* VAP-JOBS */ = {
+			isa = PBXGroup;
+			children = (
+				CACA82852012133C004804C3 /* Utils */,
+				CACA82622012104E004804C3 /* AppDelegate.swift */,
+				CACA82642012104E004804C3 /* ViewController.swift */,
+				CACA82662012104E004804C3 /* Main.storyboard */,
+				CACA826C2012104E004804C3 /* Assets.xcassets */,
+				CACA826E2012104E004804C3 /* LaunchScreen.storyboard */,
+				CACA82712012104F004804C3 /* Info.plist */,
+				CACA82692012104E004804C3 /* VAP_JOBS.xcdatamodeld */,
+			);
+			path = "VAP-JOBS";
+			sourceTree = "<group>";
+		};
+		CACA82792012104F004804C3 /* VAP-JOBSTests */ = {
+			isa = PBXGroup;
+			children = (
+				CACA827A2012104F004804C3 /* VAP_JOBSTests.swift */,
+				CACA827C2012104F004804C3 /* Info.plist */,
+			);
+			path = "VAP-JOBSTests";
+			sourceTree = "<group>";
+		};
+		CACA82852012133C004804C3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CACA82862012136F004804C3 /* SwiftNotice.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FBE90667CAFA1ADE42CE3E4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B9D1BCB2D189962911EB429 /* Pods_VAP_JOBS.framework */,
+				DA3CD8A64B8E707F0C25EDA9 /* Pods_VAP_JOBSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CACA825E2012104E004804C3 /* VAP-JOBS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CACA827F2012104F004804C3 /* Build configuration list for PBXNativeTarget "VAP-JOBS" */;
+			buildPhases = (
+				3858FAFAA1FFF592868CBCB8 /* [CP] Check Pods Manifest.lock */,
+				CACA825B2012104E004804C3 /* Sources */,
+				CACA825C2012104E004804C3 /* Frameworks */,
+				CACA825D2012104E004804C3 /* Resources */,
+				3DD384092CB06F8BBC21B9AB /* [CP] Embed Pods Frameworks */,
+				9ADF879F4C50070A79DE0605 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VAP-JOBS";
+			productName = "VAP-JOBS";
+			productReference = CACA825F2012104E004804C3 /* VAP-JOBS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CACA82752012104F004804C3 /* VAP-JOBSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CACA82822012104F004804C3 /* Build configuration list for PBXNativeTarget "VAP-JOBSTests" */;
+			buildPhases = (
+				670213AA0C3BA13F03C75866 /* [CP] Check Pods Manifest.lock */,
+				CACA82722012104F004804C3 /* Sources */,
+				CACA82732012104F004804C3 /* Frameworks */,
+				CACA82742012104F004804C3 /* Resources */,
+				C0B854C769BB48CF5F07F26C /* [CP] Embed Pods Frameworks */,
+				182E8C4838F18DE216ACE37A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CACA82782012104F004804C3 /* PBXTargetDependency */,
+			);
+			name = "VAP-JOBSTests";
+			productName = "VAP-JOBSTests";
+			productReference = CACA82762012104F004804C3 /* VAP-JOBSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CACA82572012104E004804C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = hoffsilva;
+				TargetAttributes = {
+					CACA825E2012104E004804C3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CACA82752012104F004804C3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CACA825E2012104E004804C3;
+					};
+				};
+			};
+			buildConfigurationList = CACA825A2012104E004804C3 /* Build configuration list for PBXProject "VAP-JOBS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CACA82562012104E004804C3;
+			productRefGroup = CACA82602012104E004804C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CACA825E2012104E004804C3 /* VAP-JOBS */,
+				CACA82752012104F004804C3 /* VAP-JOBSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CACA825D2012104E004804C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACA82702012104E004804C3 /* LaunchScreen.storyboard in Resources */,
+				CACA826D2012104E004804C3 /* Assets.xcassets in Resources */,
+				CACA82682012104E004804C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CACA82742012104F004804C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		182E8C4838F18DE216ACE37A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VAP-JOBSTests/Pods-VAP-JOBSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3858FAFAA1FFF592868CBCB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VAP-JOBS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DD384092CB06F8BBC21B9AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VAP-JOBS/Pods-VAP-JOBS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FCAlertView/FCAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FCAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VAP-JOBS/Pods-VAP-JOBS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		670213AA0C3BA13F03C75866 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VAP-JOBSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ADF879F4C50070A79DE0605 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VAP-JOBS/Pods-VAP-JOBS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0B854C769BB48CF5F07F26C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VAP-JOBSTests/Pods-VAP-JOBSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CACA825B2012104E004804C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACA82652012104E004804C3 /* ViewController.swift in Sources */,
+				CACA826B2012104E004804C3 /* VAP_JOBS.xcdatamodeld in Sources */,
+				CACA82632012104E004804C3 /* AppDelegate.swift in Sources */,
+				CACA82872012136F004804C3 /* SwiftNotice.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CACA82722012104F004804C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACA827B2012104F004804C3 /* VAP_JOBSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CACA82782012104F004804C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CACA825E2012104E004804C3 /* VAP-JOBS */;
+			targetProxy = CACA82772012104F004804C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CACA82662012104E004804C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CACA82672012104E004804C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CACA826E2012104E004804C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CACA826F2012104E004804C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CACA827D2012104F004804C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CACA827E2012104F004804C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CACA82802012104F004804C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 999C70071CEFF74FA16F3685 /* Pods-VAP-JOBS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C434CHPZ37;
+				INFOPLIST_FILE = "VAP-JOBS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.hoffsilva.VAP-JOBS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CACA82812012104F004804C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E67CDADC88A85A23B471F09 /* Pods-VAP-JOBS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C434CHPZ37;
+				INFOPLIST_FILE = "VAP-JOBS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.hoffsilva.VAP-JOBS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CACA82832012104F004804C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8AAD61F56BF6EE1B39CE37D /* Pods-VAP-JOBSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C434CHPZ37;
+				INFOPLIST_FILE = "VAP-JOBSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.hoffsilva.VAP-JOBSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VAP-JOBS.app/VAP-JOBS";
+			};
+			name = Debug;
+		};
+		CACA82842012104F004804C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C09BD7BC32BC67427E07792 /* Pods-VAP-JOBSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C434CHPZ37;
+				INFOPLIST_FILE = "VAP-JOBSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.hoffsilva.VAP-JOBSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VAP-JOBS.app/VAP-JOBS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CACA825A2012104E004804C3 /* Build configuration list for PBXProject "VAP-JOBS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACA827D2012104F004804C3 /* Debug */,
+				CACA827E2012104F004804C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CACA827F2012104F004804C3 /* Build configuration list for PBXNativeTarget "VAP-JOBS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACA82802012104F004804C3 /* Debug */,
+				CACA82812012104F004804C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CACA82822012104F004804C3 /* Build configuration list for PBXNativeTarget "VAP-JOBSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACA82832012104F004804C3 /* Debug */,
+				CACA82842012104F004804C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CACA82692012104E004804C3 /* VAP_JOBS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CACA826A2012104E004804C3 /* VAP_JOBS.xcdatamodel */,
+			);
+			currentVersion = CACA826A2012104E004804C3 /* VAP_JOBS.xcdatamodel */;
+			path = VAP_JOBS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CACA82572012104E004804C3 /* Project object */;
+}

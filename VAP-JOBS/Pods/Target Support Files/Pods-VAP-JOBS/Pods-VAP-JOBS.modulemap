@@ -1,0 +1,6 @@
+framework module Pods_VAP_JOBS {
+  umbrella header "Pods-VAP-JOBS-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "07aef628709a6d6a2c151afe1a013c0f"
+build_time: [1516362661, 925786000]
+inputs:
+  "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [1516362519, 0]

@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "b121b8d4ef52b4b682580c365988dedf"
+build_time: [1516362667, 812925000]
+inputs:
+  "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/Alamofire/Source/AFError.swift": [1516362502, 0]
+  "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/Alamofire/Source/Alamofire.swift": [1516362502, 0]
+  "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1516362502, 0]
+  "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/Alamofire/Source/MultipartFormData.swift": [1516362502, 0]
+  "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1516362502, 0]
+  "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/Alamofire/Source/Notifications.swift": [1516362502, 0]
+  "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/Alamofire/Source/ParameterEncoding.swift": [1516362502, 0]
+  "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/Alamofire/Source/Request.swift": [1516362502, 0]
+  "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/Alamofire/Source/Response.swift": [1516362502, 0]
+  "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/Alamofire/Source/ResponseSerialization.swift": [1516362502, 0]
+  "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/Alamofire/Source/Result.swift": [1516362502, 0]
+  "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1516362502, 0]
+  "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/Alamofire/Source/SessionDelegate.swift": [1516362502, 0]
+  "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/Alamofire/Source/SessionManager.swift": [1516362502, 0]
+  "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/Alamofire/Source/TaskDelegate.swift": [1516362502, 0]
+  "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/Alamofire/Source/Timeline.swift": [1516362502, 0]
+  "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/Alamofire/Source/Validation.swift": [1516362502, 0]

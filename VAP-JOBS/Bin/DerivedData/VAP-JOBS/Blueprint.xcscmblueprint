@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "36865540385BA4CFDF1DDD64FF62FEEC63A49C7F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "36865540385BA4CFDF1DDD64FF62FEEC63A49C7F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3EB08692-4749-490D-8B42-99E5D6C93CA3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "36865540385BA4CFDF1DDD64FF62FEEC63A49C7F" : "vap_tech_project\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "VAP-JOBS",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "VAP-JOBS\/VAP-JOBS.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/hoffsilva\/vap_tech_project.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "36865540385BA4CFDF1DDD64FF62FEEC63A49C7F"
+    }
+  ]
+}

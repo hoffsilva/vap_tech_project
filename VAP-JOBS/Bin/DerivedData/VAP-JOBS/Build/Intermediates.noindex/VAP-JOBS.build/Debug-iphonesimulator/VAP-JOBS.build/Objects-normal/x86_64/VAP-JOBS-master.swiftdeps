@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "4408f479c4b6f8232640b5a5f89b133f"
+build_time: [1516362736, 948647000]
+inputs:
+  "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/VAP-JOBS/ViewController.swift": [1516361934, 0]
+  "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/VAP-JOBS/AppDelegate.swift": [1516361934, 0]
+  "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/VAP-JOBS/Utils/SwiftNotice.swift": [9223372036, 854775807]
