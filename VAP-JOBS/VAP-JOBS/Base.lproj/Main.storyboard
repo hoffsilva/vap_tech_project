@@ -34,10 +34,13 @@
         <scene sceneID="8Ez-ih-q4j">
             <objects>
                 <navigationController id="sL7-ol-hvN" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" selectedImage="funnel" id="tIE-1t-LAP"/>
+                    <tabBarItem key="tabBarItem" title="Item" selectedImage="funnel" id="tIE-1t-LAP">
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kXz-at-a4s">
                         <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <connections>
                         <segue destination="EUN-0H-tKT" kind="relationship" relationship="rootViewController" id="2MX-Nw-BDz"/>
@@ -50,7 +53,7 @@
         <!--Jobs Filter-->
         <scene sceneID="g36-1g-08U">
             <objects>
-                <viewController id="EUN-0H-tKT" sceneMemberID="viewController">
+                <viewController id="EUN-0H-tKT" customClass="FilterJobsView" customModule="VAP_JOBS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GrZ-gE-DIr">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -63,10 +66,17 @@
                                     <segment title="Type"/>
                                 </segments>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <connections>
+                                    <action selector="filterJobs:" destination="EUN-0H-tKT" eventType="valueChanged" id="qk0-c2-wwU"/>
+                                </connections>
                             </segmentedControl>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Sfi-ee-nR4">
                                 <rect key="frame" x="0.0" y="116" width="320" height="400"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="EUN-0H-tKT" id="eHX-s4-7Fo"/>
+                                    <outlet property="delegate" destination="EUN-0H-tKT" id="xhG-3U-I8Y"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -86,7 +96,7 @@
                     </tabBarItem>
                     <navigationItem key="navigationItem" title="Jobs Filter" id="B6H-0n-kNf"/>
                     <connections>
-                        <segue destination="OKD-8i-P12" kind="show" id="3sb-4S-sLH"/>
+                        <segue destination="OKD-8i-P12" kind="show" identifier="segueShowJobsListByFilter" id="3sb-4S-sLH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f3K-zQ-w0E" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -96,19 +106,64 @@
         <!--Jobs List-->
         <scene sceneID="RRF-Mo-ZCm">
             <objects>
-                <tableViewController id="OKD-8i-P12" sceneMemberID="viewController">
+                <tableViewController id="OKD-8i-P12" customClass="JobsListTableView" customModule="VAP_JOBS" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="4WH-jv-ufN">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="qxp-FO-gjb">
-                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="jobcell" rowHeight="100" id="qxp-FO-gjb" customClass="JobTableViewCell" customModule="VAP_JOBS" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="320" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qxp-FO-gjb" id="zOH-2V-vl5">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="99.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vic-07-59y" userLabel="logoCompanyImageView">
+                                            <rect key="frame" x="16" y="30" width="40" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="Q2w-GO-P7d"/>
+                                                <constraint firstAttribute="width" constant="40" id="qmC-1C-mIO"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nwa-AW-wgx" userLabel="titleOfJobLabel">
+                                            <rect key="frame" x="64" y="6" width="240" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xFg-II-3G6" userLabel="siteOfCompanyButton">
+                                            <rect key="frame" x="64" y="34" width="240" height="30"/>
+                                            <state key="normal" title="Button"/>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ATd-0I-VJF" userLabel="locationOfJobLabel">
+                                            <rect key="frame" x="64" y="68" width="240" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="xFg-II-3G6" firstAttribute="leading" secondItem="vic-07-59y" secondAttribute="trailing" constant="8" id="9ST-vt-a2q"/>
+                                        <constraint firstItem="ATd-0I-VJF" firstAttribute="top" secondItem="xFg-II-3G6" secondAttribute="bottom" constant="4" id="FRo-1D-it7"/>
+                                        <constraint firstItem="nwa-AW-wgx" firstAttribute="top" secondItem="zOH-2V-vl5" secondAttribute="top" constant="6" id="REr-rF-woR"/>
+                                        <constraint firstItem="vic-07-59y" firstAttribute="centerY" secondItem="zOH-2V-vl5" secondAttribute="centerY" id="RNE-57-x7r"/>
+                                        <constraint firstItem="vic-07-59y" firstAttribute="leading" secondItem="zOH-2V-vl5" secondAttribute="leading" constant="16" id="Snu-1V-EYx"/>
+                                        <constraint firstItem="nwa-AW-wgx" firstAttribute="leading" secondItem="vic-07-59y" secondAttribute="trailing" constant="8" id="WF4-BS-1ow"/>
+                                        <constraint firstAttribute="trailing" secondItem="xFg-II-3G6" secondAttribute="trailing" constant="16" id="cjm-Pz-eZa"/>
+                                        <constraint firstItem="xFg-II-3G6" firstAttribute="top" secondItem="nwa-AW-wgx" secondAttribute="bottom" constant="7" id="hGG-oG-jSV"/>
+                                        <constraint firstAttribute="trailing" secondItem="ATd-0I-VJF" secondAttribute="trailing" constant="16" id="ik1-9B-0pA"/>
+                                        <constraint firstAttribute="trailing" secondItem="nwa-AW-wgx" secondAttribute="trailing" constant="16" id="jGz-N0-hc8"/>
+                                        <constraint firstItem="xFg-II-3G6" firstAttribute="centerY" secondItem="zOH-2V-vl5" secondAttribute="centerY" id="pko-bj-YYS"/>
+                                        <constraint firstItem="ATd-0I-VJF" firstAttribute="leading" secondItem="vic-07-59y" secondAttribute="trailing" constant="8" id="ujZ-ug-Sfj"/>
+                                    </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="imageOfCompany" destination="vic-07-59y" id="RZC-2E-5lW"/>
+                                    <outlet property="locationOfPositionLabel" destination="ATd-0I-VJF" id="Rnn-Za-wcR"/>
+                                    <outlet property="siteOfCompany" destination="xFg-II-3G6" id="YPO-ox-Hn0"/>
+                                    <outlet property="titleOfPositionLabel" destination="nwa-AW-wgx" id="Mc2-xh-ayw"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -121,12 +176,12 @@
                     </tabBarItem>
                     <navigationItem key="navigationItem" title="Jobs List" id="x6Q-VJ-SYw"/>
                     <connections>
-                        <segue destination="vAC-fF-ChG" kind="show" id="uAJ-Ts-JrT"/>
+                        <segue destination="vAC-fF-ChG" kind="show" identifier="segueDetailJobs" id="uAJ-Ts-JrT"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JxQ-Cg-yaU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3039" y="-85"/>
+            <point key="canvasLocation" x="2814.375" y="-304.22535211267603"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="LEa-2E-7wM">
@@ -154,7 +209,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KIg-kp-smr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4114" y="-73"/>
+            <point key="canvasLocation" x="3924" y="-304"/>
         </scene>
         <!--Item-->
         <scene sceneID="d0S-OY-Vf4">
@@ -172,7 +227,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2EC-oc-hCT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="999" y="-304"/>
+            <point key="canvasLocation" x="998" y="-304"/>
         </scene>
     </scenes>
     <resources>

@@ -24,6 +24,13 @@
 		433191D02012C0D400B76201 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433191CF2012C0D400B76201 /* Model.swift */; };
 		433191D22012C61B00B76201 /* ResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433191D12012C61B00B76201 /* ResponseData.swift */; };
 		433191D42012C63900B76201 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433191D32012C63900B76201 /* FileManager.swift */; };
+		43531D0A2013A5EB00DBA6C2 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43531D072013A5EA00DBA6C2 /* Categories.swift */; };
+		43531D0B2013A5EB00DBA6C2 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43531D082013A5EB00DBA6C2 /* Types.swift */; };
+		43531D0C2013A5EB00DBA6C2 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43531D092013A5EB00DBA6C2 /* Locations.swift */; };
+		43531D102013CABF00DBA6C2 /* FilterJobsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43531D0F2013CABF00DBA6C2 /* FilterJobsView.swift */; };
+		43531D122013CB1100DBA6C2 /* JobsListTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43531D112013CB1100DBA6C2 /* JobsListTableView.swift */; };
+		43531D142013E73C00DBA6C2 /* JobsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43531D132013E73C00DBA6C2 /* JobsController.swift */; };
+		43531D162013F85200DBA6C2 /* JobTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43531D152013F85200DBA6C2 /* JobTableViewCell.swift */; };
 		A000656AA12EBCDFC7C6BE44 /* Pods_VAP_JOBS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9D1BCB2D189962911EB429 /* Pods_VAP_JOBS.framework */; };
 		CACA82632012104E004804C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACA82622012104E004804C3 /* AppDelegate.swift */; };
 		CACA82652012104E004804C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACA82642012104E004804C3 /* ViewController.swift */; };
@@ -62,6 +69,13 @@
 		433191CF2012C0D400B76201 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		433191D12012C61B00B76201 /* ResponseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseData.swift; sourceTree = "<group>"; };
 		433191D32012C63900B76201 /* FileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		43531D072013A5EA00DBA6C2 /* Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		43531D082013A5EB00DBA6C2 /* Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		43531D092013A5EB00DBA6C2 /* Locations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		43531D0F2013CABF00DBA6C2 /* FilterJobsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterJobsView.swift; sourceTree = "<group>"; };
+		43531D112013CB1100DBA6C2 /* JobsListTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsListTableView.swift; sourceTree = "<group>"; };
+		43531D132013E73C00DBA6C2 /* JobsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsController.swift; sourceTree = "<group>"; };
+		43531D152013F85200DBA6C2 /* JobTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobTableViewCell.swift; sourceTree = "<group>"; };
 		5C09BD7BC32BC67427E07792 /* Pods-VAP-JOBSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VAP-JOBSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VAP-JOBSTests/Pods-VAP-JOBSTests.release.xcconfig"; sourceTree = "<group>"; };
 		6E67CDADC88A85A23B471F09 /* Pods-VAP-JOBS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VAP-JOBS.release.xcconfig"; path = "Pods/Target Support Files/Pods-VAP-JOBS/Pods-VAP-JOBS.release.xcconfig"; sourceTree = "<group>"; };
 		7B9D1BCB2D189962911EB429 /* Pods_VAP_JOBS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VAP_JOBS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +130,9 @@
 		433191542012BBD000B76201 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				43531D072013A5EA00DBA6C2 /* Categories.swift */,
+				43531D092013A5EB00DBA6C2 /* Locations.swift */,
+				43531D082013A5EB00DBA6C2 /* Types.swift */,
 				433191D12012C61B00B76201 /* ResponseData.swift */,
 				433191CF2012C0D400B76201 /* Model.swift */,
 				433191552012BBD000B76201 /* Location.swift */,
@@ -142,6 +159,24 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
+		43531D0D2013CA4500DBA6C2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				43531D132013E73C00DBA6C2 /* JobsController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		43531D0E2013CA6A00DBA6C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				43531D0F2013CABF00DBA6C2 /* FilterJobsView.swift */,
+				43531D112013CB1100DBA6C2 /* JobsListTableView.swift */,
+				43531D152013F85200DBA6C2 /* JobTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		CACA82562012104E004804C3 = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +200,8 @@
 		CACA82612012104E004804C3 /* VAP-JOBS */ = {
 			isa = PBXGroup;
 			children = (
+				43531D0E2013CA6A00DBA6C2 /* View */,
+				43531D0D2013CA4500DBA6C2 /* Controller */,
 				433191C22012C0AA00B76201 /* Network */,
 				433191542012BBD000B76201 /* Models */,
 				CACA82852012133C004804C3 /* Utils */,
@@ -428,13 +465,20 @@
 				CACA82652012104E004804C3 /* ViewController.swift in Sources */,
 				CACA826B2012104E004804C3 /* VAP_JOBS.xcdatamodeld in Sources */,
 				433191CE2012C0C000B76201 /* Service.swift in Sources */,
+				43531D0C2013A5EB00DBA6C2 /* Locations.swift in Sources */,
+				43531D0B2013A5EB00DBA6C2 /* Types.swift in Sources */,
 				433191602012BBD100B76201 /* Company.swift in Sources */,
 				433191622012BBD100B76201 /* Listing.swift in Sources */,
 				4331915C2012BBD100B76201 /* Location.swift in Sources */,
 				4331915F2012BBD100B76201 /* AuthenticJobsBaseClass.swift in Sources */,
+				43531D162013F85200DBA6C2 /* JobTableViewCell.swift in Sources */,
+				43531D142013E73C00DBA6C2 /* JobsController.swift in Sources */,
 				433191D02012C0D400B76201 /* Model.swift in Sources */,
 				433191D22012C61B00B76201 /* ResponseData.swift in Sources */,
+				43531D102013CABF00DBA6C2 /* FilterJobsView.swift in Sources */,
+				43531D0A2013A5EB00DBA6C2 /* Categories.swift in Sources */,
 				CACA82632012104E004804C3 /* AppDelegate.swift in Sources */,
+				43531D122013CB1100DBA6C2 /* JobsListTableView.swift in Sources */,
 				433191CC2012C0C000B76201 /* Session.swift in Sources */,
 				433191C92012C0C000B76201 /* Connection.swift in Sources */,
 				433191612012BBD100B76201 /* Listings.swift in Sources */,

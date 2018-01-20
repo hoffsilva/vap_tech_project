@@ -1,24 +1,22 @@
 //
-//  AuthenticJobsBaseClass.swift
+//  Types.swift
 //
-//  Created by Hoff Henry Pereira da Silva on 19/01/2018
+//  Created by Hoff Henry Pereira da Silva on 20/01/2018
 //  Copyright (c) . All rights reserved.
 //
 
 import Foundation
 import SwiftyJSON
 
-class AuthenticJobsBaseClass: Model {
+class Types: Model {
     
     // MARK: Declaration for string constants to be used to decode and also serialize.
     private struct SerializationKeys {
-        static let stat = "stat"
-        static let listings = "listings"
+        static let type = "type"
     }
     
     // MARK: Properties
-    public var stat: String?
-    public var listings: Listings?
+    public var type: [Type]?
     
     // MARK: SwiftyJSON Initializers
     /// Initiates the instance based on the object.
@@ -28,7 +26,6 @@ class AuthenticJobsBaseClass: Model {
     public convenience init(object: Any) {
         self.init(json: JSON(object))
     }
-    
     override init() {
         super.init()
     }
@@ -38,8 +35,7 @@ class AuthenticJobsBaseClass: Model {
     /// - parameter json: JSON object from SwiftyJSON.
     public required init(json: JSON) {
         super.init(json: json)
-        stat = json[SerializationKeys.stat].string
-        listings = Listings(json: json[SerializationKeys.listings])
+        if let items = json[SerializationKeys.type].array { type = items.map { Type(json: $0) } }
     }
     
     /// Generates description of the object in the form of a NSDictionary.
@@ -47,8 +43,8 @@ class AuthenticJobsBaseClass: Model {
     /// - returns: A Key value pair containing all valid values in the object.
     public func dictionaryRepresentation() -> [String: Any] {
         var dictionary: [String: Any] = [:]
-        if let value = stat { dictionary[SerializationKeys.stat] = value }
-        if let value = listings { dictionary[SerializationKeys.listings] = value.dictionaryRepresentation() }
+        if let value = type { dictionary[SerializationKeys.type] = value.map { $0.dictionaryRepresentation() } }
         return dictionary
     }
+    
 }
