@@ -8,6 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		150035404F7DCE84913F8E4A /* Pods_VAP_JOBSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3CD8A64B8E707F0C25EDA9 /* Pods_VAP_JOBSTests.framework */; };
+		4331915C2012BBD100B76201 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433191552012BBD000B76201 /* Location.swift */; };
+		4331915D2012BBD100B76201 /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433191562012BBD000B76201 /* Type.swift */; };
+		4331915E2012BBD100B76201 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433191572012BBD000B76201 /* Category.swift */; };
+		4331915F2012BBD100B76201 /* AuthenticJobsBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433191582012BBD000B76201 /* AuthenticJobsBaseClass.swift */; };
+		433191602012BBD100B76201 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433191592012BBD000B76201 /* Company.swift */; };
+		433191612012BBD100B76201 /* Listings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4331915A2012BBD000B76201 /* Listings.swift */; };
+		433191622012BBD100B76201 /* Listing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4331915B2012BBD000B76201 /* Listing.swift */; };
+		433191C92012C0C000B76201 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433191C32012C0BF00B76201 /* Connection.swift */; };
+		433191CA2012C0C000B76201 /* EnvironmentLinks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 433191C42012C0BF00B76201 /* EnvironmentLinks.plist */; };
+		433191CB2012C0C000B76201 /* RequestLinks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 433191C52012C0C000B76201 /* RequestLinks.plist */; };
+		433191CC2012C0C000B76201 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433191C62012C0C000B76201 /* Session.swift */; };
+		433191CD2012C0C000B76201 /* EnvironmentLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433191C72012C0C000B76201 /* EnvironmentLinks.swift */; };
+		433191CE2012C0C000B76201 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433191C82012C0C000B76201 /* Service.swift */; };
+		433191D02012C0D400B76201 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433191CF2012C0D400B76201 /* Model.swift */; };
+		433191D22012C61B00B76201 /* ResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433191D12012C61B00B76201 /* ResponseData.swift */; };
+		433191D42012C63900B76201 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433191D32012C63900B76201 /* FileManager.swift */; };
 		A000656AA12EBCDFC7C6BE44 /* Pods_VAP_JOBS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9D1BCB2D189962911EB429 /* Pods_VAP_JOBS.framework */; };
 		CACA82632012104E004804C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACA82622012104E004804C3 /* AppDelegate.swift */; };
 		CACA82652012104E004804C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACA82642012104E004804C3 /* ViewController.swift */; };
@@ -30,6 +46,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		433191552012BBD000B76201 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		433191562012BBD000B76201 /* Type.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Type.swift; sourceTree = "<group>"; };
+		433191572012BBD000B76201 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		433191582012BBD000B76201 /* AuthenticJobsBaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticJobsBaseClass.swift; sourceTree = "<group>"; };
+		433191592012BBD000B76201 /* Company.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		4331915A2012BBD000B76201 /* Listings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Listings.swift; sourceTree = "<group>"; };
+		4331915B2012BBD000B76201 /* Listing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Listing.swift; sourceTree = "<group>"; };
+		433191C32012C0BF00B76201 /* Connection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		433191C42012C0BF00B76201 /* EnvironmentLinks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EnvironmentLinks.plist; sourceTree = "<group>"; };
+		433191C52012C0C000B76201 /* RequestLinks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RequestLinks.plist; sourceTree = "<group>"; };
+		433191C62012C0C000B76201 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		433191C72012C0C000B76201 /* EnvironmentLinks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvironmentLinks.swift; sourceTree = "<group>"; };
+		433191C82012C0C000B76201 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		433191CF2012C0D400B76201 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		433191D12012C61B00B76201 /* ResponseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseData.swift; sourceTree = "<group>"; };
+		433191D32012C63900B76201 /* FileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 		5C09BD7BC32BC67427E07792 /* Pods-VAP-JOBSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VAP-JOBSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VAP-JOBSTests/Pods-VAP-JOBSTests.release.xcconfig"; sourceTree = "<group>"; };
 		6E67CDADC88A85A23B471F09 /* Pods-VAP-JOBS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VAP-JOBS.release.xcconfig"; path = "Pods/Target Support Files/Pods-VAP-JOBS/Pods-VAP-JOBS.release.xcconfig"; sourceTree = "<group>"; };
 		7B9D1BCB2D189962911EB429 /* Pods_VAP_JOBS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VAP_JOBS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +113,35 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		433191542012BBD000B76201 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				433191D12012C61B00B76201 /* ResponseData.swift */,
+				433191CF2012C0D400B76201 /* Model.swift */,
+				433191552012BBD000B76201 /* Location.swift */,
+				433191562012BBD000B76201 /* Type.swift */,
+				433191572012BBD000B76201 /* Category.swift */,
+				433191582012BBD000B76201 /* AuthenticJobsBaseClass.swift */,
+				433191592012BBD000B76201 /* Company.swift */,
+				4331915A2012BBD000B76201 /* Listings.swift */,
+				4331915B2012BBD000B76201 /* Listing.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		433191C22012C0AA00B76201 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				433191C32012C0BF00B76201 /* Connection.swift */,
+				433191C42012C0BF00B76201 /* EnvironmentLinks.plist */,
+				433191C72012C0C000B76201 /* EnvironmentLinks.swift */,
+				433191C52012C0C000B76201 /* RequestLinks.plist */,
+				433191C82012C0C000B76201 /* Service.swift */,
+				433191C62012C0C000B76201 /* Session.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		CACA82562012104E004804C3 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +165,8 @@
 		CACA82612012104E004804C3 /* VAP-JOBS */ = {
 			isa = PBXGroup;
 			children = (
+				433191C22012C0AA00B76201 /* Network */,
+				433191542012BBD000B76201 /* Models */,
 				CACA82852012133C004804C3 /* Utils */,
 				CACA82622012104E004804C3 /* AppDelegate.swift */,
 				CACA82642012104E004804C3 /* ViewController.swift */,
@@ -128,6 +191,7 @@
 		CACA82852012133C004804C3 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				433191D32012C63900B76201 /* FileManager.swift */,
 				CACA82862012136F004804C3 /* SwiftNotice.swift */,
 			);
 			path = Utils;
@@ -231,8 +295,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				433191CB2012C0C000B76201 /* RequestLinks.plist in Resources */,
 				CACA82702012104E004804C3 /* LaunchScreen.storyboard in Resources */,
 				CACA826D2012104E004804C3 /* Assets.xcassets in Resources */,
+				433191CA2012C0C000B76201 /* EnvironmentLinks.plist in Resources */,
 				CACA82682012104E004804C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,8 +427,22 @@
 			files = (
 				CACA82652012104E004804C3 /* ViewController.swift in Sources */,
 				CACA826B2012104E004804C3 /* VAP_JOBS.xcdatamodeld in Sources */,
+				433191CE2012C0C000B76201 /* Service.swift in Sources */,
+				433191602012BBD100B76201 /* Company.swift in Sources */,
+				433191622012BBD100B76201 /* Listing.swift in Sources */,
+				4331915C2012BBD100B76201 /* Location.swift in Sources */,
+				4331915F2012BBD100B76201 /* AuthenticJobsBaseClass.swift in Sources */,
+				433191D02012C0D400B76201 /* Model.swift in Sources */,
+				433191D22012C61B00B76201 /* ResponseData.swift in Sources */,
 				CACA82632012104E004804C3 /* AppDelegate.swift in Sources */,
+				433191CC2012C0C000B76201 /* Session.swift in Sources */,
+				433191C92012C0C000B76201 /* Connection.swift in Sources */,
+				433191612012BBD100B76201 /* Listings.swift in Sources */,
 				CACA82872012136F004804C3 /* SwiftNotice.swift in Sources */,
+				433191CD2012C0C000B76201 /* EnvironmentLinks.swift in Sources */,
+				433191D42012C63900B76201 /* FileManager.swift in Sources */,
+				4331915D2012BBD100B76201 /* Type.swift in Sources */,
+				4331915E2012BBD100B76201 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>getJobsByCategory</key>
+	<string>format=json&amp;api_key=e9e39f539767a0a499cef4caf8aa7750&amp;method=aj.jobs.search&amp;category=&lt;idOfCategory&gt;&amp;perpage=10</string>
+	<key>getCategories</key>
+	<string>format=json&amp;api_key=e9e39f539767a0a499cef4caf8aa7750&amp;method=aj.categories.getlist</string>
+	<key>getJobsByLocation</key>
+	<string>format=json&amp;api_key=e9e39f539767a0a499cef4caf8aa7750&amp;method=aj.jobs.search&amp;location=&lt;idOfLocation&gt;&amp;perpage=10</string>
+	<key>getLocations</key>
+	<string>format=json&amp;api_key=e9e39f539767a0a499cef4caf8aa7750&amp;method=aj.jobs.getlocations</string>
+	<key>getJobsByType</key>
+	<string>format=json&amp;api_key=e9e39f539767a0a499cef4caf8aa7750&amp;method=aj.jobs.search&amp;type=&lt;idOfType&gt;&amp;perpage=10</string>
+	<key>getTypes</key>
+	<string>format=json&amp;api_key=e9e39f539767a0a499cef4caf8aa7750&amp;method=aj.types.getlist</string>
+	<key>getJobsSearchedBy</key>
+	<string>format=json&amp;api_key=e9e39f539767a0a499cef4caf8aa7750&amp;method=aj.jobs.search&amp;keywords=&lt;searchArgument&gt;&amp;perpage=10</string>
+	<key>getAllJobs</key>
+	<string>format=json&amp;api_key=e9e39f539767a0a499cef4caf8aa7750&amp;method=aj.jobs.search&amp;perpage=10</string>
+</dict>
+</plist>

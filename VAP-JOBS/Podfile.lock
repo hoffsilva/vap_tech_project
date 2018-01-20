@@ -1,23 +1,23 @@
 PODS:
-  - Alamofire (4.5.1)
+  - Alamofire (4.6.0)
   - FCAlertView (1.4.0)
-  - SDWebImage (4.1.0):
-    - SDWebImage/Core (= 4.1.0)
-  - SDWebImage/Core (4.1.0)
-  - SwiftyJSON (3.1.4)
+  - SDWebImage (4.2.3):
+    - SDWebImage/Core (= 4.2.3)
+  - SDWebImage/Core (4.2.3)
+  - SwiftyJSON (4.0.0)
 
 DEPENDENCIES:
-  - Alamofire (~> 4.5)
+  - Alamofire (~> 4.4)
   - FCAlertView
   - SDWebImage (~> 4.0)
   - SwiftyJSON
 
 SPEC CHECKSUMS:
-  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
   FCAlertView: fdddd63381898c1d1a5a20c9f084fbd2c6d12f8b
-  SDWebImage: 0e435c14e402a6730315a0fb79f95e68654d55a4
-  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: 97b93ebeff205657364db5e38959bbfc017a32af
+PODFILE CHECKSUM: eea9aaf0611eeaabadbf2172ef78e9d2784743b5
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.3.1
