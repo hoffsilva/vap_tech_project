@@ -31,6 +31,7 @@
 		43531D122013CB1100DBA6C2 /* JobsListTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43531D112013CB1100DBA6C2 /* JobsListTableView.swift */; };
 		43531D142013E73C00DBA6C2 /* JobsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43531D132013E73C00DBA6C2 /* JobsController.swift */; };
 		43531D162013F85200DBA6C2 /* JobTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43531D152013F85200DBA6C2 /* JobTableViewCell.swift */; };
+		43531D182014E61B00DBA6C2 /* DetailJobTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43531D172014E61B00DBA6C2 /* DetailJobTableView.swift */; };
 		A000656AA12EBCDFC7C6BE44 /* Pods_VAP_JOBS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9D1BCB2D189962911EB429 /* Pods_VAP_JOBS.framework */; };
 		CACA82632012104E004804C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACA82622012104E004804C3 /* AppDelegate.swift */; };
 		CACA82652012104E004804C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACA82642012104E004804C3 /* ViewController.swift */; };
@@ -76,6 +77,7 @@
 		43531D112013CB1100DBA6C2 /* JobsListTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsListTableView.swift; sourceTree = "<group>"; };
 		43531D132013E73C00DBA6C2 /* JobsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsController.swift; sourceTree = "<group>"; };
 		43531D152013F85200DBA6C2 /* JobTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobTableViewCell.swift; sourceTree = "<group>"; };
+		43531D172014E61B00DBA6C2 /* DetailJobTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailJobTableView.swift; sourceTree = "<group>"; };
 		5C09BD7BC32BC67427E07792 /* Pods-VAP-JOBSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VAP-JOBSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VAP-JOBSTests/Pods-VAP-JOBSTests.release.xcconfig"; sourceTree = "<group>"; };
 		6E67CDADC88A85A23B471F09 /* Pods-VAP-JOBS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VAP-JOBS.release.xcconfig"; path = "Pods/Target Support Files/Pods-VAP-JOBS/Pods-VAP-JOBS.release.xcconfig"; sourceTree = "<group>"; };
 		7B9D1BCB2D189962911EB429 /* Pods_VAP_JOBS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VAP_JOBS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -173,6 +175,7 @@
 				43531D0F2013CABF00DBA6C2 /* FilterJobsView.swift */,
 				43531D112013CB1100DBA6C2 /* JobsListTableView.swift */,
 				43531D152013F85200DBA6C2 /* JobTableViewCell.swift */,
+				43531D172014E61B00DBA6C2 /* DetailJobTableView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -472,6 +475,7 @@
 				4331915C2012BBD100B76201 /* Location.swift in Sources */,
 				4331915F2012BBD100B76201 /* AuthenticJobsBaseClass.swift in Sources */,
 				43531D162013F85200DBA6C2 /* JobTableViewCell.swift in Sources */,
+				43531D182014E61B00DBA6C2 /* DetailJobTableView.swift in Sources */,
 				43531D142013E73C00DBA6C2 /* JobsController.swift in Sources */,
 				433191D02012C0D400B76201 /* Model.swift in Sources */,
 				433191D22012C61B00B76201 /* ResponseData.swift in Sources */,

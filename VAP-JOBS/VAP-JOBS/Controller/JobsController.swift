@@ -17,10 +17,12 @@ class JobsController {
 
     weak var jobDelegate: AllJobsDelegate?
     
+    var page = 1
+    
     var arrayOfJobs = [Listing]()
     
     func getAllJobs() {
-        Service.shared.fetch(requestLink: .getAllJobs, parameters: nil) { (response) in
+        Service.shared.fetch(requestLink: .getAllJobs, parameters: ["pageNumber":page]) { (response) in
             if let error = Service.verifyResult(response) {
                 self.jobDelegate?.showError(message: error.description)
                 return

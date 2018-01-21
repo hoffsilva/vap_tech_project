@@ -17,6 +17,6 @@
 	<key>getJobsSearchedBy</key>
 	<string>format=json&amp;api_key=e9e39f539767a0a499cef4caf8aa7750&amp;method=aj.jobs.search&amp;keywords=&lt;searchArgument&gt;&amp;perpage=10</string>
 	<key>getAllJobs</key>
-	<string>format=json&amp;api_key=e9e39f539767a0a499cef4caf8aa7750&amp;method=aj.jobs.search&amp;perpage=10</string>
+	<string>format=json&amp;api_key=e9e39f539767a0a499cef4caf8aa7750&amp;method=aj.jobs.search&amp;perpage=10&amp;page=&lt;pageNumber&gt;</string>
 </dict>
 </plist>
