@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VAP-JOBS/Network/Service.swift"
-            timestampString = "538248643.591025"
+            timestampString = "538252437.323674"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "104"
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VAP-JOBS/Network/Service.swift"
-            timestampString = "538248643.591098"
+            timestampString = "538252437.3237441"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VAP-JOBS/Network/Service.swift"
-            timestampString = "538248643.591151"
+            timestampString = "538252437.323795"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "31"
@@ -58,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VAP-JOBS/Network/Service.swift"
-            timestampString = "538248643.591198"
+            timestampString = "538252437.323841"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "32"
@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VAP-JOBS/Network/Service.swift"
-            timestampString = "538248643.591246"
+            timestampString = "538252437.323887"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "36"
@@ -90,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VAP-JOBS/Network/Service.swift"
-            timestampString = "538248643.591293"
+            timestampString = "538252437.3239321"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "42"
@@ -138,7 +138,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VAP-JOBS/Controller/JobsController.swift"
-            timestampString = "538248643.591345"
+            timestampString = "538252437.323981"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "44"
@@ -154,7 +154,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VAP-JOBS/Controller/JobsController.swift"
-            timestampString = "538248643.591396"
+            timestampString = "538252437.324029"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "45"
@@ -170,7 +170,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VAP-JOBS/View/JobsListTableView.swift"
-            timestampString = "538248643.5914479"
+            timestampString = "538252437.324079"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "54"
@@ -186,11 +186,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VAP-JOBS/View/DetailJobTableView.swift"
-            timestampString = "538248643.591817"
+            timestampString = "538252437.324441"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "setDataJob()"
             landmarkType = "7">
             <Locations>
@@ -234,11 +234,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VAP-JOBS/View/DetailJobTableView.swift"
-            timestampString = "538248643.592136"
+            timestampString = "538252437.325039"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
             landmarkName = "setDataJob()"
             landmarkType = "7">
             <Locations>
@@ -282,11 +282,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VAP-JOBS/View/DetailJobTableView.swift"
-            timestampString = "538248643.592396"
+            timestampString = "538252437.325528"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
             landmarkName = "setDataJob()"
             landmarkType = "7">
             <Locations>
@@ -330,11 +330,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VAP-JOBS/View/DetailJobTableView.swift"
-            timestampString = "538248643.592656"
+            timestampString = "538252437.326015"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
             landmarkName = "setDataJob()"
             landmarkType = "7">
             <Locations>
@@ -374,65 +374,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VAP-JOBS/View/DetailJobTableView.swift"
-            timestampString = "538248643.592913"
+            timestampString = "538252437.326502"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "setDataJob()"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "VAP-JOBS/View/DetailJobTableView.swift"
-            timestampString = "538248643.593169"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
-            landmarkName = "setDataJob()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "VAP_JOBS.DetailJobTableView.setDataJob() -&gt; ()"
-                  moduleName = "VAP-JOBS"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hoffhenrypereiradasilva/Documents/gitProjects/vap_tech_project/VAP-JOBS/VAP-JOBS/View/DetailJobTableView.swift"
-                  timestampString = "538248338.029567"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "51"
-                  endingLineNumber = "51"
-                  offsetFromSymbolStart = "4040">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "implicit closure #4 : @autoclosure () throws -&gt; Swift.String in VAP_JOBS.DetailJobTableView.setDataJob() -&gt; ()"
-                  moduleName = "VAP-JOBS"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hoffhenrypereiradasilva/Documents/gitProjects/vap_tech_project/VAP-JOBS/VAP-JOBS/View/DetailJobTableView.swift"
-                  timestampString = "538248338.032369"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "51"
-                  endingLineNumber = "51"
-                  offsetFromSymbolStart = "12">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -442,11 +394,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VAP-JOBS/View/DetailJobTableView.swift"
-            timestampString = "538248643.593428"
+            timestampString = "538252437.326984"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
             landmarkName = "setDataJob()"
             landmarkType = "7">
             <Locations>
@@ -490,11 +442,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VAP-JOBS/View/DetailJobTableView.swift"
-            timestampString = "538248643.593686"
+            timestampString = "538252437.327479"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
             landmarkName = "viewDidAppear(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -506,45 +458,125 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VAP-JOBS/View/DetailJobTableView.swift"
-            timestampString = "538248643.593942"
+            timestampString = "538252437.3279589"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "setDataJob()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VAP-JOBS/View/DetailJobTableView.swift"
+            timestampString = "538252437.328378"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "setDataJob()"
             landmarkType = "7">
             <Locations>
                <Location
-                  shouldBeEnabled = "No"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "VAP_JOBS.DetailJobTableView.setDataJob() -&gt; ()"
                   moduleName = "VAP-JOBS"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/hoffhenrypereiradasilva/Documents/gitProjects/vap_tech_project/VAP-JOBS/VAP-JOBS/View/DetailJobTableView.swift"
-                  timestampString = "538248010.757701"
+                  timestampString = "538252437.532007"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "53"
-                  endingLineNumber = "53"
-                  offsetFromSymbolStart = "4484">
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "5108">
                </Location>
                <Location
-                  shouldBeEnabled = "No"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "implicit closure #5 : @autoclosure () throws -&gt; Swift.String in VAP_JOBS.DetailJobTableView.setDataJob() -&gt; ()"
+                  symbolName = "VAP_JOBS.DetailJobTableView.setDataJob() -&gt; ()"
                   moduleName = "VAP-JOBS"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/hoffhenrypereiradasilva/Documents/gitProjects/vap_tech_project/VAP-JOBS/VAP-JOBS/View/DetailJobTableView.swift"
-                  timestampString = "538248010.760003"
+                  timestampString = "538252437.534778"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "53"
-                  endingLineNumber = "53"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "7696">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VAP-JOBS/View/DetailJobTableView.swift"
+            timestampString = "538252437.328794"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "setDataJob()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VAP_JOBS.DetailJobTableView.setDataJob() -&gt; ()"
+                  moduleName = "VAP-JOBS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hoffhenrypereiradasilva/Documents/gitProjects/vap_tech_project/VAP-JOBS/VAP-JOBS/View/DetailJobTableView.swift"
+                  timestampString = "538252437.5724699"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "5676">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #4 : @autoclosure () throws -&gt; Swift.String in VAP_JOBS.DetailJobTableView.setDataJob() -&gt; ()"
+                  moduleName = "VAP-JOBS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hoffhenrypereiradasilva/Documents/gitProjects/vap_tech_project/VAP-JOBS/VAP-JOBS/View/DetailJobTableView.swift"
+                  timestampString = "538252437.575325"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
                   offsetFromSymbolStart = "12">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VAP-JOBS/View/DetailJobTableView.swift"
+            timestampString = "538252753.560106"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "setDataJob()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

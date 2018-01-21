@@ -18,10 +18,13 @@ class DetailJobTableView: UITableViewController {
     @IBOutlet weak var titleOfJobLabel: UILabel!
     
     @IBOutlet weak var descriptionofJobWebView: UIWebView!
+    @IBOutlet weak var heightOfDescriptionConstrait: NSLayoutConstraint!
     
     @IBOutlet weak var perksOkJobWebView: UIWebView!
+    @IBOutlet weak var heigthOfPerksContraint: NSLayoutConstraint!
     
     @IBOutlet weak var keywordsOfJobTextView: UITextView!
+    @IBOutlet weak var heigthOfKeywords: NSLayoutConstraint!
     
     var job = Listing()
 
@@ -45,12 +48,21 @@ class DetailJobTableView: UITableViewController {
         companyNameLabel.text = job.company?.name ?? "adasfdaf"
         companyLocationLabel.text = job.company?.location?.name ?? "asdadasd"
         titleOfJobLabel.text = job.title ?? "..."
-        let s = job.description
+
+        descriptionofJobWebView.scrollView.isScrollEnabled = false
+        heightOfDescriptionConstrait.constant = CGFloat(job.descriptionValue!.characters.count/2)
         descriptionofJobWebView.loadHTMLString(job.descriptionValue! , baseURL: nil)
         
-        perksOkJobWebView.loadHTMLString(job.perks ?? "fdsfsdsdfs", baseURL: nil)
+        perksOkJobWebView.scrollView.isScrollEnabled = false
+        if let perks = job.perks {
+            heigthOfPerksContraint.constant = CGFloat((job.perks?.characters.count)!/2)
+            perksOkJobWebView.loadHTMLString(job.perks ?? "fdsfsdsdfs", baseURL: nil)
+        }
+        if let kw = job.keywords {
+            heigthOfKeywords.constant = CGFloat(kw.characters.count/2)
+            keywordsOfJobTextView.text = job.keywords ?? "asdadsdasd"
+        }
         
-        keywordsOfJobTextView.text = job.keywords ?? "asdadsdasd"
        
     }
     
