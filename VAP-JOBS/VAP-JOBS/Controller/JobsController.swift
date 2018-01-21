@@ -49,6 +49,92 @@ class JobsController {
         }
     }
     
+    func getJobsByCategory(idOfCategory: Int) {
+        Service.shared.fetch(requestLink: .getJobsByCategory, parameters: ["idOfCategory":idOfCategory]) { (response) in
+            if let error = Service.verifyResult(response) {
+                self.jobDelegate?.showError(message: error.description)
+                return
+            }
+            
+            let parsedResponse = (try! JSONSerialization.jsonObject(with: response as! Data, options: JSONSerialization.ReadingOptions.allowFragments)) as! NSDictionary
+            
+            guard let listings = parsedResponse.value(forKey: "listings") as? NSDictionary else {
+                self.jobDelegate?.showError(message: "Load jobs error. 😕")
+                return
+            }
+            
+            guard let listingList = listings.value(forKey: "listing") as? [[String:Any]] else {
+                self.jobDelegate?.showError(message: "Load jobs error. 😕")
+                return
+            }
+            
+            for job in listingList {
+                let newListing = Listing(object: job)
+                self.arrayOfJobs.append(newListing)
+            }
+            
+            self.jobDelegate?.loadAllJobs()
+        }
+    }
+    
+    
+    func getJobsByLocation(idOfLocation: String) {
+        Service.shared.fetch(requestLink: .getJobsByLocation, parameters: ["idOfLocation":idOfLocation]) { (response) in
+            if let error = Service.verifyResult(response) {
+                self.jobDelegate?.showError(message: error.description)
+                return
+            }
+            
+            let parsedResponse = (try! JSONSerialization.jsonObject(with: response as! Data, options: JSONSerialization.ReadingOptions.allowFragments)) as! NSDictionary
+            
+            guard let listings = parsedResponse.value(forKey: "listings") as? NSDictionary else {
+                self.jobDelegate?.showError(message: "Load jobs error. 😕")
+                return
+            }
+            
+            guard let listingList = listings.value(forKey: "listing") as? [[String:Any]] else {
+                self.jobDelegate?.showError(message: "Load jobs error. 😕")
+                return
+            }
+            
+            for job in listingList {
+                let newListing = Listing(object: job)
+                self.arrayOfJobs.append(newListing)
+            }
+            
+            self.jobDelegate?.loadAllJobs()
+        }
+    }
+    
+    
+    func getJobsByType(typeOfJob: String) {
+        Service.shared.fetch(requestLink: .getJobsByType, parameters: ["idOfType":typeOfJob]) { (response) in
+            if let error = Service.verifyResult(response) {
+                self.jobDelegate?.showError(message: error.description)
+                return
+            }
+            
+            let parsedResponse = (try! JSONSerialization.jsonObject(with: response as! Data, options: JSONSerialization.ReadingOptions.allowFragments)) as! NSDictionary
+            
+            guard let listings = parsedResponse.value(forKey: "listings") as? NSDictionary else {
+                self.jobDelegate?.showError(message: "Load jobs error. 😕")
+                return
+            }
+            
+            guard let listingList = listings.value(forKey: "listing") as? [[String:Any]] else {
+                self.jobDelegate?.showError(message: "Load jobs error. 😕")
+                return
+            }
+            
+            for job in listingList {
+                let newListing = Listing(object: job)
+                self.arrayOfJobs.append(newListing)
+            }
+            
+            self.jobDelegate?.loadAllJobs()
+        }
+    }
+    
     func getJobsDataToShowInCell(job: Int) -> Listing {
         return arrayOfJobs[job]
     }

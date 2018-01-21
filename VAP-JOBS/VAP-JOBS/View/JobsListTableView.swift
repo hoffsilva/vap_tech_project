@@ -13,12 +13,16 @@ class JobsListTableView: UITableViewController {
     
     var jobsController = JobsController()
     var selectJob: Int!
+    var isFiltering = false
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
         jobsController.jobDelegate = self
-        jobsController.getAllJobs()
+        if !isFiltering {
+            jobsController.getAllJobs()
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -72,43 +76,6 @@ class JobsListTableView: UITableViewController {
         }
     }
     
-
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
-    }
-    */
-
-    /*
-    // Override to support editing the table view.
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
-        if editingStyle == .delete {
-            // Delete the row from the data source
-            tableView.deleteRows(at: [indexPath], with: .fade)
-        } else if editingStyle == .insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
-    }
-    */
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
-
-    }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the item to be re-orderable.
-        return true
-    }
-    */
-
-    
     // MARK: - Navigation
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -123,8 +90,6 @@ class JobsListTableView: UITableViewController {
             dj.job = jobsController.arrayOfJobs[selectJob]
         }
     }
- 
-
 }
 
 extension JobsListTableView: AllJobsDelegate {
@@ -137,6 +102,4 @@ extension JobsListTableView: AllJobsDelegate {
         self.noticeOnlyText(message)
         self.clearAllNotice()
     }
-    
-    
 }

@@ -32,6 +32,9 @@
 		43531D142013E73C00DBA6C2 /* JobsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43531D132013E73C00DBA6C2 /* JobsController.swift */; };
 		43531D162013F85200DBA6C2 /* JobTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43531D152013F85200DBA6C2 /* JobTableViewCell.swift */; };
 		43531D182014E61B00DBA6C2 /* DetailJobTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43531D172014E61B00DBA6C2 /* DetailJobTableView.swift */; };
+		43531D1A2015184400DBA6C2 /* CategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43531D192015184400DBA6C2 /* CategoryController.swift */; };
+		43531D1C20152A0100DBA6C2 /* LocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43531D1B20152A0100DBA6C2 /* LocationController.swift */; };
+		43531D1E201532F500DBA6C2 /* TypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43531D1D201532F500DBA6C2 /* TypeController.swift */; };
 		A000656AA12EBCDFC7C6BE44 /* Pods_VAP_JOBS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9D1BCB2D189962911EB429 /* Pods_VAP_JOBS.framework */; };
 		CACA82632012104E004804C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACA82622012104E004804C3 /* AppDelegate.swift */; };
 		CACA82652012104E004804C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACA82642012104E004804C3 /* ViewController.swift */; };
@@ -78,6 +81,9 @@
 		43531D132013E73C00DBA6C2 /* JobsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsController.swift; sourceTree = "<group>"; };
 		43531D152013F85200DBA6C2 /* JobTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobTableViewCell.swift; sourceTree = "<group>"; };
 		43531D172014E61B00DBA6C2 /* DetailJobTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailJobTableView.swift; sourceTree = "<group>"; };
+		43531D192015184400DBA6C2 /* CategoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryController.swift; sourceTree = "<group>"; };
+		43531D1B20152A0100DBA6C2 /* LocationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationController.swift; sourceTree = "<group>"; };
+		43531D1D201532F500DBA6C2 /* TypeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeController.swift; sourceTree = "<group>"; };
 		5C09BD7BC32BC67427E07792 /* Pods-VAP-JOBSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VAP-JOBSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VAP-JOBSTests/Pods-VAP-JOBSTests.release.xcconfig"; sourceTree = "<group>"; };
 		6E67CDADC88A85A23B471F09 /* Pods-VAP-JOBS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VAP-JOBS.release.xcconfig"; path = "Pods/Target Support Files/Pods-VAP-JOBS/Pods-VAP-JOBS.release.xcconfig"; sourceTree = "<group>"; };
 		7B9D1BCB2D189962911EB429 /* Pods_VAP_JOBS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VAP_JOBS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,6 +171,9 @@
 			isa = PBXGroup;
 			children = (
 				43531D132013E73C00DBA6C2 /* JobsController.swift */,
+				43531D192015184400DBA6C2 /* CategoryController.swift */,
+				43531D1B20152A0100DBA6C2 /* LocationController.swift */,
+				43531D1D201532F500DBA6C2 /* TypeController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -485,12 +494,15 @@
 				43531D122013CB1100DBA6C2 /* JobsListTableView.swift in Sources */,
 				433191CC2012C0C000B76201 /* Session.swift in Sources */,
 				433191C92012C0C000B76201 /* Connection.swift in Sources */,
+				43531D1C20152A0100DBA6C2 /* LocationController.swift in Sources */,
 				433191612012BBD100B76201 /* Listings.swift in Sources */,
 				CACA82872012136F004804C3 /* SwiftNotice.swift in Sources */,
 				433191CD2012C0C000B76201 /* EnvironmentLinks.swift in Sources */,
 				433191D42012C63900B76201 /* FileManager.swift in Sources */,
 				4331915D2012BBD100B76201 /* Type.swift in Sources */,
+				43531D1E201532F500DBA6C2 /* TypeController.swift in Sources */,
 				4331915E2012BBD100B76201 /* Category.swift in Sources */,
+				43531D1A2015184400DBA6C2 /* CategoryController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

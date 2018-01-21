@@ -96,6 +96,8 @@
                     </tabBarItem>
                     <navigationItem key="navigationItem" title="Jobs Filter" id="B6H-0n-kNf"/>
                     <connections>
+                        <outlet property="segmentedControlFilter" destination="93e-DX-AQz" id="8yg-aN-IqI"/>
+                        <outlet property="tableview" destination="Sfi-ee-nR4" id="CeK-x4-CCB"/>
                         <segue destination="OKD-8i-P12" kind="show" identifier="segueShowJobsListByFilter" id="3sb-4S-sLH"/>
                     </connections>
                 </viewController>
