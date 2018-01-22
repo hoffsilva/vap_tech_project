@@ -98,8 +98,9 @@ class JobsListTableView: UITableViewController {
     
     @objc
     @IBAction func loadJobsList() {
-        pleaseWait()
+        self.pleaseWait()
         jobsController.getAllJobs()
+        tableView.refreshControl?.endRefreshing()
     }
     
     @IBAction func openCompanySite(_ sender: UIButton) {

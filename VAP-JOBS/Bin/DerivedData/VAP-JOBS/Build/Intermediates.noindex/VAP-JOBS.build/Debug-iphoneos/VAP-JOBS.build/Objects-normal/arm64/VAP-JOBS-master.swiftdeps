@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
 options: "5b4456e904a748af556c318f139f5b6b"
-build_time: [1516648494, 209657000]
+build_time: [1516648790, 579175000]
 inputs:
   "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/VAP-JOBS/ViewController.swift": [1516361934, 0]
   "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/VAP-JOBS/Network/Service.swift": [1516645553, 0]
@@ -18,7 +18,7 @@ inputs:
   "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/VAP-JOBS/View/FilterJobsView.swift": [1516616631, 0]
   "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/VAP-JOBS/Models/Categories.swift": [1516616631, 0]
   "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/VAP-JOBS/AppDelegate.swift": [1516646048, 0]
-  "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/VAP-JOBS/View/JobsListTableView.swift": [1516648493, 0]
+  "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/VAP-JOBS/View/JobsListTableView.swift": [1516648790, 0]
   "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/VAP-JOBS/Network/Session.swift": [1516616631, 0]
   "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/VAP-JOBS/Network/Connection.swift": [1516616631, 0]
   "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/VAP-JOBS/Controller/LocationController.swift": [1516616631, 0]
