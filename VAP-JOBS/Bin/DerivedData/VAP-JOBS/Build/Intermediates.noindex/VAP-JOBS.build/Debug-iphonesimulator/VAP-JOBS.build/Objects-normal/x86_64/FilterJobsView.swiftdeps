@@ -1262,6 +1262,8 @@ depends-member:
 - ["So20UIScrollViewDelegateP", "viewForZooming"]
 - ["So20UIScrollViewDelegateP", "viewForZoomingInScrollView"]
 - ["So20UIScrollViewDelegateP", ""]
+- !private ["So23UISearchResultsUpdatingP", "isFiltering"]
+- !private ["So23UISearchResultsUpdatingP", "jobsController"]
 - !private ["So18UISegmentedControlC", "selectedSegmentIndex"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "reloadData"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "selectedSegmentIndex"]
@@ -1714,6 +1716,7 @@ depends-nominal:
 - "So30UIResponderStandardEditActionsP"
 - !private "So12UIScrollViewC"
 - "So20UIScrollViewDelegateP"
+- !private "So23UISearchResultsUpdatingP"
 - !private "So18UISegmentedControlC"
 - !private "So35UISpringLoadedInteractionSupportingP"
 - "So16UIStateRestoringP"

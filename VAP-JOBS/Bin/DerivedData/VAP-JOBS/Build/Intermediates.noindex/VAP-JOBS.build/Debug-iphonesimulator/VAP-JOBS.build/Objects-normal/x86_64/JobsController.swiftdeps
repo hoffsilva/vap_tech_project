@@ -22,6 +22,7 @@ depends-top-level:
 - "JobsController"
 - "Listing"
 - !private "NSDictionary"
+- "NSManagedObjectContext"
 - !private "Service"
 - "String"
 - !private "StringLiteralType"
@@ -102,6 +103,7 @@ depends-member:
 - !private ["8VAP_JOBS14JobsControllerC", "JSONSerialization"]
 - ["8VAP_JOBS14JobsControllerC", "Listing"]
 - !private ["8VAP_JOBS14JobsControllerC", "NSDictionary"]
+- ["8VAP_JOBS14JobsControllerC", "NSManagedObjectContext"]
 - !private ["8VAP_JOBS14JobsControllerC", "Service"]
 - ["8VAP_JOBS14JobsControllerC", "String"]
 - ["8VAP_JOBS14JobsControllerC", "arrayOfJobs"]
@@ -113,6 +115,7 @@ depends-member:
 - ["8VAP_JOBS14JobsControllerC", "getJobsDataToShowInCell"]
 - ["8VAP_JOBS14JobsControllerC", "init"]
 - ["8VAP_JOBS14JobsControllerC", "jobDelegate"]
+- ["8VAP_JOBS14JobsControllerC", "managedContext"]
 - ["8VAP_JOBS14JobsControllerC", "page"]
 - ["8VAP_JOBS14JobsControllerC", "parseJobs"]
 - !private ["8VAP_JOBS7ListingC", "init"]
@@ -333,4 +336,4 @@ depends-external:
 - "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
 - "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
 - "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
-interface-hash: "b2c54ddbe2e948095a70feccaf587014"
+interface-hash: "b8838bf631e525b4b6253537b4b2ddef"

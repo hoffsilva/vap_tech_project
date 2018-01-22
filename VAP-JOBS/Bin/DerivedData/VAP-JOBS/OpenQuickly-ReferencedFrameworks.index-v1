@@ -4,8 +4,8 @@
 <array>
 	<string>Foundation</string>
 	<string>SwiftyJSON</string>
-	<string>CoreData</string>
 	<string>AppKit</string>
+	<string>CoreData</string>
 	<string>CommonCrypto</string>
 	<string>Dispatch</string>
 	<string>AVFoundation</string>

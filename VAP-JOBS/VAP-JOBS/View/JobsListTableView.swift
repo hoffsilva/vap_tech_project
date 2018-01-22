@@ -14,10 +14,12 @@ class JobsListTableView: UITableViewController {
     var jobsController = JobsController()
     var selectJob: Int!
     var isFiltering = false
+    let searchController = UISearchController(searchResultsController: nil)
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
+        configureSearchBar()
+        definesPresentationContext = true
         jobsController.jobDelegate = self
         if !isFiltering {
             jobsController.getAllJobs()
@@ -90,6 +92,18 @@ class JobsListTableView: UITableViewController {
             dj.job = jobsController.arrayOfJobs[selectJob]
         }
     }
+    
+    func configureSearchBar() {
+        searchController.searchResultsUpdater = self
+        searchController.obscuresBackgroundDuringPresentation = false
+        searchController.searchBar.placeholder = "Search Jobs"
+        if #available(iOS 11.0, *) {
+            navigationItem.searchController = searchController
+        } else {
+            // Fallback on earlier versions
+        }
+        definesPresentationContext = true
+    }
 }
 
 extension JobsListTableView: AllJobsDelegate {
@@ -102,4 +116,14 @@ extension JobsListTableView: AllJobsDelegate {
         self.noticeOnlyText(message)
         self.clearAllNotice()
     }
+}
+
+extension JobsListTableView: UISearchResultsUpdating {
+    func updateSearchResults(for searchController: UISearchController) {
+        print("sas")
+    }
+    
+    
+    
+    
 }

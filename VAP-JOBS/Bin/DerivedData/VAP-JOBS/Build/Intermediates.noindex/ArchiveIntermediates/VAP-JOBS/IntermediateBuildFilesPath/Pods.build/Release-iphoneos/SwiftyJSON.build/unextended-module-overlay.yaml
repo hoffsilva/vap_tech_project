@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Intermediates.noindex/ArchiveIntermediates/VAP-JOBS/BuildProductsPath/Release-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Intermediates.noindex/ArchiveIntermediates/VAP-JOBS/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/SwiftyJSON.build/unextended-module.modulemap',
+    }]
+  }]
+}

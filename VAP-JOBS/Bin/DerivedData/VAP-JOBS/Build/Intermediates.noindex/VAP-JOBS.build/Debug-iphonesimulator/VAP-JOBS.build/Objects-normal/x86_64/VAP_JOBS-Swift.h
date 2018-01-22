@@ -176,6 +176,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import ObjectiveC;
 @import Foundation;
 @import CoreGraphics;
+@import CoreData;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -292,6 +293,33 @@ SWIFT_CLASS("_TtC8VAP_JOBS14FilterJobsView")
 
 
 
+@class NSEntityDescription;
+@class NSManagedObjectContext;
+
+SWIFT_CLASS_NAMED("Job")
+@interface Job : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface Job (SWIFT_EXTENSION(VAP_JOBS))
+@property (nonatomic) int16_t relocationAssistance;
+@property (nonatomic) int16_t telecommuting;
+@property (nonatomic, copy) NSString * _Nullable howtoApply;
+@property (nonatomic, copy) NSString * _Nullable descriptionValue;
+@property (nonatomic, copy) NSString * _Nullable applyUrl;
+@property (nonatomic, copy) NSString * _Nullable keywords;
+@property (nonatomic, copy) NSString * _Nullable id;
+@property (nonatomic, copy) NSString * _Nullable perks;
+@property (nonatomic, copy) NSString * _Nullable postDate;
+@property (nonatomic, copy) NSString * _Nullable title;
+@property (nonatomic, copy) NSString * _Nullable companyName;
+@property (nonatomic, copy) NSString * _Nullable companyUrl;
+@property (nonatomic, copy) NSString * _Nullable companyLogo;
+@property (nonatomic, copy) NSString * _Nullable companyLocation;
+@property (nonatomic, copy) NSString * _Nullable url;
+@end
+
 
 SWIFT_CLASS("_TtC8VAP_JOBS16JobTableViewCell")
 @interface JobTableViewCell : UITableViewCell
@@ -320,6 +348,12 @@ SWIFT_CLASS("_TtC8VAP_JOBS17JobsListTableView")
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UISearchController;
+
+@interface JobsListTableView (SWIFT_EXTENSION(VAP_JOBS)) <UISearchResultsUpdating>
+- (void)updateSearchResultsForSearchController:(UISearchController * _Nonnull)searchController;
 @end
 
 

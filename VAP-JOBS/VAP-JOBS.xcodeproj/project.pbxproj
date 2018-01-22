@@ -44,6 +44,9 @@
 		CACA82702012104E004804C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CACA826E2012104E004804C3 /* LaunchScreen.storyboard */; };
 		CACA827B2012104F004804C3 /* VAP_JOBSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACA827A2012104F004804C3 /* VAP_JOBSTests.swift */; };
 		CACA82872012136F004804C3 /* SwiftNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACA82862012136F004804C3 /* SwiftNotice.swift */; };
+		CAD99948201616D500B2D434 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD99947201616D500B2D434 /* CoreDataStack.swift */; };
+		CAD9995020161D2C00B2D434 /* Job+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9994F20161D2B00B2D434 /* Job+CoreDataProperties.swift */; };
+		CAD9995220161D4600B2D434 /* Job+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9995120161D4600B2D434 /* Job+CoreDataClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +104,9 @@
 		CACA827A2012104F004804C3 /* VAP_JOBSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VAP_JOBSTests.swift; sourceTree = "<group>"; };
 		CACA827C2012104F004804C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CACA82862012136F004804C3 /* SwiftNotice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNotice.swift; sourceTree = "<group>"; };
+		CAD99947201616D500B2D434 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		CAD9994F20161D2B00B2D434 /* Job+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Job+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CAD9995120161D4600B2D434 /* Job+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Job+CoreDataClass.swift"; sourceTree = "<group>"; };
 		DA3CD8A64B8E707F0C25EDA9 /* Pods_VAP_JOBSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VAP_JOBSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -212,6 +218,7 @@
 		CACA82612012104E004804C3 /* VAP-JOBS */ = {
 			isa = PBXGroup;
 			children = (
+				CAD99946201616A000B2D434 /* Persistence */,
 				43531D0E2013CA6A00DBA6C2 /* View */,
 				43531D0D2013CA4500DBA6C2 /* Controller */,
 				433191C22012C0AA00B76201 /* Network */,
@@ -244,6 +251,16 @@
 				CACA82862012136F004804C3 /* SwiftNotice.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		CAD99946201616A000B2D434 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				CAD9995120161D4600B2D434 /* Job+CoreDataClass.swift */,
+				CAD9994F20161D2B00B2D434 /* Job+CoreDataProperties.swift */,
+				CAD99947201616D500B2D434 /* CoreDataStack.swift */,
+			);
+			path = Persistence;
 			sourceTree = "<group>";
 		};
 		FBE90667CAFA1ADE42CE3E4D /* Frameworks */ = {
@@ -487,8 +504,11 @@
 				43531D182014E61B00DBA6C2 /* DetailJobTableView.swift in Sources */,
 				43531D142013E73C00DBA6C2 /* JobsController.swift in Sources */,
 				433191D02012C0D400B76201 /* Model.swift in Sources */,
+				CAD9995020161D2C00B2D434 /* Job+CoreDataProperties.swift in Sources */,
 				433191D22012C61B00B76201 /* ResponseData.swift in Sources */,
 				43531D102013CABF00DBA6C2 /* FilterJobsView.swift in Sources */,
+				CAD99948201616D500B2D434 /* CoreDataStack.swift in Sources */,
+				CAD9995220161D4600B2D434 /* Job+CoreDataClass.swift in Sources */,
 				43531D0A2013A5EB00DBA6C2 /* Categories.swift in Sources */,
 				CACA82632012104E004804C3 /* AppDelegate.swift in Sources */,
 				43531D122013CB1100DBA6C2 /* JobsListTableView.swift in Sources */,

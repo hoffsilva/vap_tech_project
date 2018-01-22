@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 protocol AllJobsDelegate: class {
     func loadAllJobs()
@@ -14,6 +15,8 @@ protocol AllJobsDelegate: class {
 }
 
 class JobsController {
+    
+    var managedContext: NSManagedObjectContext!
 
     weak var jobDelegate: AllJobsDelegate?
     
@@ -27,6 +30,7 @@ class JobsController {
                 self.jobDelegate?.showError(message: error.description)
                 return
             }
+            
             self.parseJobs(response: response)
         }
     }

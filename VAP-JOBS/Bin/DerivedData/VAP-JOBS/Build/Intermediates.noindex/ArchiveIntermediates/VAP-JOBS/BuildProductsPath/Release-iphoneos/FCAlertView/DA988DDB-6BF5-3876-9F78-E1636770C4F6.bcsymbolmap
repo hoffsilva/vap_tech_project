@@ -1,0 +1,535 @@
+BCSymbolMap Version: 2.0
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/Target Support Files/FCAlertView/FCAlertView-dummy.m
+/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods
+-[FCAlertView init]
+-[FCAlertView configureAVWidth]
+-[FCAlertView configureAVHeight]
+-[FCAlertView checkCustomizationValid]
+-[FCAlertView safetyCloseCheck]
+-[FCAlertView hasTitle]
+-[FCAlertView hasSubTitle]
+-[FCAlertView touchesBegan:withEvent:]
+-[FCAlertView touchesMoved:withEvent:]
+-[FCAlertView touchesEnded:withEvent:]
+-[FCAlertView drawRect:]
+-[FCAlertView imageWithColor:]
++[FCAlertView getResourcesBundle]
+-[FCAlertView loadImageFromResourceBundle:]
+-[FCAlertView makeAlertTypeWarning]
+-[FCAlertView makeAlertTypeCaution]
+-[FCAlertView makeAlertTypeSuccess]
+-[FCAlertView makeAlertTypeProgress]
+-[FCAlertView makeAlertTypeRateHearts:]
+-[FCAlertView makeAlertTypeRateStars:]
+-[FCAlertView setAlertSoundWithFileName:]
+-[FCAlertView showAlertInView:withTitle:withSubtitle:withCustomImage:withDoneButtonTitle:andButtons:]
+-[FCAlertView showAlertInWindow:withTitle:withSubtitle:withCustomImage:withDoneButtonTitle:andButtons:]
+-[FCAlertView showAlertWithTitle:withSubtitle:withCustomImage:withDoneButtonTitle:andButtons:]
+-[FCAlertView showAlertWithAttributedTitle:withSubtitle:withCustomImage:withDoneButtonTitle:andButtons:]
+-[FCAlertView showAlertWithTitle:withAttributedSubtitle:withCustomImage:withDoneButtonTitle:andButtons:]
+-[FCAlertView showAlertWithAttributedTitle:withAttributedSubtitle:withCustomImage:withDoneButtonTitle:andButtons:]
+-[FCAlertView setAlertViewAttributes:withSubtitle:withCustomImage:withDoneButtonTitle:andButtons:]
+-[FCAlertView showAlertView]
+___28-[FCAlertView showAlertView]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___28-[FCAlertView showAlertView]_block_invoke.406
+___28-[FCAlertView showAlertView]_block_invoke_2
+___copy_helper_block_.407
+___destroy_helper_block_.408
+___copy_helper_block_.416
+___destroy_helper_block_.417
+-[FCAlertView dismissAlertView]
+___31-[FCAlertView dismissAlertView]_block_invoke
+___copy_helper_block_.422
+___destroy_helper_block_.423
+___31-[FCAlertView dismissAlertView]_block_invoke.425
+___31-[FCAlertView dismissAlertView]_block_invoke_2
+___copy_helper_block_.430
+___destroy_helper_block_.431
+___31-[FCAlertView dismissAlertView]_block_invoke.433
+___copy_helper_block_.434
+___destroy_helper_block_.435
+___copy_helper_block_.437
+___destroy_helper_block_.438
+-[FCAlertView addButton:withActionBlock:]
+-[FCAlertView doneActionBlock:]
+-[FCAlertView handleButton:]
+-[FCAlertView btnTouched]
+___25-[FCAlertView btnTouched]_block_invoke
+___copy_helper_block_.448
+___destroy_helper_block_.449
+-[FCAlertView donePressed]
+-[FCAlertView btnReleased]
+___26-[FCAlertView btnReleased]_block_invoke
+___copy_helper_block_.455
+___destroy_helper_block_.456
+___26-[FCAlertView btnReleased]_block_invoke.458
+___26-[FCAlertView btnReleased]_block_invoke_2
+___copy_helper_block_.459
+___destroy_helper_block_.460
+___copy_helper_block_.462
+___destroy_helper_block_.463
+-[FCAlertView addTextFieldWithPlaceholder:andTextReturnBlock:]
+-[FCAlertView addTextFieldWithCustomTextField:andPlaceholder:andTextReturnBlock:]
+-[FCAlertView textFieldDidBeginEditing:]
+___40-[FCAlertView textFieldDidBeginEditing:]_block_invoke
+___copy_helper_block_.465
+___destroy_helper_block_.466
+-[FCAlertView textFieldDidEndEditing:]
+___38-[FCAlertView textFieldDidEndEditing:]_block_invoke
+___copy_helper_block_.468
+___destroy_helper_block_.469
+-[FCAlertView textFieldShouldReturn:]
+-[FCAlertView rate1Triggered]
+___29-[FCAlertView rate1Triggered]_block_invoke
+___copy_helper_block_.475
+___destroy_helper_block_.476
+___29-[FCAlertView rate1Triggered]_block_invoke.478
+___29-[FCAlertView rate1Triggered]_block_invoke_2
+___copy_helper_block_.479
+___destroy_helper_block_.480
+___copy_helper_block_.482
+___destroy_helper_block_.483
+-[FCAlertView rate2Triggered]
+___29-[FCAlertView rate2Triggered]_block_invoke
+___copy_helper_block_.485
+___destroy_helper_block_.486
+___29-[FCAlertView rate2Triggered]_block_invoke.488
+___29-[FCAlertView rate2Triggered]_block_invoke_2
+___copy_helper_block_.489
+___destroy_helper_block_.490
+___copy_helper_block_.492
+___destroy_helper_block_.493
+-[FCAlertView rate3Triggered]
+___29-[FCAlertView rate3Triggered]_block_invoke
+___copy_helper_block_.495
+___destroy_helper_block_.496
+___29-[FCAlertView rate3Triggered]_block_invoke.498
+___29-[FCAlertView rate3Triggered]_block_invoke_2
+___copy_helper_block_.499
+___destroy_helper_block_.500
+___copy_helper_block_.502
+___destroy_helper_block_.503
+-[FCAlertView rate4Triggered]
+___29-[FCAlertView rate4Triggered]_block_invoke
+___copy_helper_block_.505
+___destroy_helper_block_.506
+___29-[FCAlertView rate4Triggered]_block_invoke.508
+___29-[FCAlertView rate4Triggered]_block_invoke_2
+___copy_helper_block_.509
+___destroy_helper_block_.510
+___copy_helper_block_.512
+___destroy_helper_block_.513
+-[FCAlertView rate5Triggered]
+___29-[FCAlertView rate5Triggered]_block_invoke
+___copy_helper_block_.515
+___destroy_helper_block_.516
+___29-[FCAlertView rate5Triggered]_block_invoke.518
+___29-[FCAlertView rate5Triggered]_block_invoke_2
+___copy_helper_block_.519
+___destroy_helper_block_.520
+___copy_helper_block_.522
+___destroy_helper_block_.523
+-[FCAlertView setActiveRating:]
+-[FCAlertView delegate]
+-[FCAlertView setDelegate:]
+-[FCAlertView title]
+-[FCAlertView setTitle:]
+-[FCAlertView subTitle]
+-[FCAlertView setSubTitle:]
+-[FCAlertView attributedTitle]
+-[FCAlertView setAttributedTitle:]
+-[FCAlertView attributedSubTitle]
+-[FCAlertView setAttributedSubTitle:]
+-[FCAlertView titleFont]
+-[FCAlertView setTitleFont:]
+-[FCAlertView subtitleFont]
+-[FCAlertView setSubtitleFont:]
+-[FCAlertView alertBackground]
+-[FCAlertView setAlertBackground:]
+-[FCAlertView textField]
+-[FCAlertView setTextField:]
+-[FCAlertView customHeight]
+-[FCAlertView setCustomHeight:]
+-[FCAlertView customSpacing]
+-[FCAlertView setCustomSpacing:]
+-[FCAlertView numberOfButtons]
+-[FCAlertView setNumberOfButtons:]
+-[FCAlertView autoHideSeconds]
+-[FCAlertView setAutoHideSeconds:]
+-[FCAlertView cornerRadius]
+-[FCAlertView setCornerRadius:]
+-[FCAlertView dismissOnOutsideTouch]
+-[FCAlertView setDismissOnOutsideTouch:]
+-[FCAlertView overrideForcedDismiss]
+-[FCAlertView setOverrideForcedDismiss:]
+-[FCAlertView hideAllButtons]
+-[FCAlertView setHideAllButtons:]
+-[FCAlertView hideDoneButton]
+-[FCAlertView setHideDoneButton:]
+-[FCAlertView avoidCustomImageTint]
+-[FCAlertView setAvoidCustomImageTint:]
+-[FCAlertView blurBackground]
+-[FCAlertView setBlurBackground:]
+-[FCAlertView bounceAnimations]
+-[FCAlertView setBounceAnimations:]
+-[FCAlertView darkTheme]
+-[FCAlertView setDarkTheme:]
+-[FCAlertView detachButtons]
+-[FCAlertView setDetachButtons:]
+-[FCAlertView fullCircleCustomImage]
+-[FCAlertView setFullCircleCustomImage:]
+-[FCAlertView hideSeparatorLineView]
+-[FCAlertView setHideSeparatorLineView:]
+-[FCAlertView customImageScale]
+-[FCAlertView setCustomImageScale:]
+-[FCAlertView ratingBlock]
+-[FCAlertView setRatingBlock:]
+-[FCAlertView animateAlertInFromTop]
+-[FCAlertView setAnimateAlertInFromTop:]
+-[FCAlertView animateAlertOutToTop]
+-[FCAlertView setAnimateAlertOutToTop:]
+-[FCAlertView animateAlertInFromRight]
+-[FCAlertView setAnimateAlertInFromRight:]
+-[FCAlertView animateAlertOutToRight]
+-[FCAlertView setAnimateAlertOutToRight:]
+-[FCAlertView animateAlertInFromBottom]
+-[FCAlertView setAnimateAlertInFromBottom:]
+-[FCAlertView animateAlertOutToBottom]
+-[FCAlertView setAnimateAlertOutToBottom:]
+-[FCAlertView animateAlertInFromLeft]
+-[FCAlertView setAnimateAlertInFromLeft:]
+-[FCAlertView animateAlertOutToLeft]
+-[FCAlertView setAnimateAlertOutToLeft:]
+-[FCAlertView actionBlock]
+-[FCAlertView setActionBlock:]
+-[FCAlertView doneBlock]
+-[FCAlertView setDoneBlock:]
+-[FCAlertView textReturnBlock]
+-[FCAlertView setTextReturnBlock:]
+-[FCAlertView colorScheme]
+-[FCAlertView setColorScheme:]
+-[FCAlertView titleColor]
+-[FCAlertView setTitleColor:]
+-[FCAlertView subTitleColor]
+-[FCAlertView setSubTitleColor:]
+-[FCAlertView alertBackgroundColor]
+-[FCAlertView setAlertBackgroundColor:]
+-[FCAlertView doneButtonTitleColor]
+-[FCAlertView setDoneButtonTitleColor:]
+-[FCAlertView doneButtonCustomFont]
+-[FCAlertView setDoneButtonCustomFont:]
+-[FCAlertView doneButtonHighlightedBackgroundColor]
+-[FCAlertView setDoneButtonHighlightedBackgroundColor:]
+-[FCAlertView firstButtonTitleColor]
+-[FCAlertView setFirstButtonTitleColor:]
+-[FCAlertView firstButtonCustomFont]
+-[FCAlertView setFirstButtonCustomFont:]
+-[FCAlertView firstButtonBackgroundColor]
+-[FCAlertView setFirstButtonBackgroundColor:]
+-[FCAlertView firstButtonHighlightedBackgroundColor]
+-[FCAlertView setFirstButtonHighlightedBackgroundColor:]
+-[FCAlertView secondButtonTitleColor]
+-[FCAlertView setSecondButtonTitleColor:]
+-[FCAlertView secondButtonCustomFont]
+-[FCAlertView setSecondButtonCustomFont:]
+-[FCAlertView secondButtonBackgroundColor]
+-[FCAlertView setSecondButtonBackgroundColor:]
+-[FCAlertView secondButtonHighlightedBackgroundColor]
+-[FCAlertView setSecondButtonHighlightedBackgroundColor:]
+-[FCAlertView flatTurquoise]
+-[FCAlertView setFlatTurquoise:]
+-[FCAlertView flatGreen]
+-[FCAlertView setFlatGreen:]
+-[FCAlertView flatBlue]
+-[FCAlertView setFlatBlue:]
+-[FCAlertView flatMidnight]
+-[FCAlertView setFlatMidnight:]
+-[FCAlertView flatPurple]
+-[FCAlertView setFlatPurple:]
+-[FCAlertView flatOrange]
+-[FCAlertView setFlatOrange:]
+-[FCAlertView flatRed]
+-[FCAlertView setFlatRed:]
+-[FCAlertView flatSilver]
+-[FCAlertView setFlatSilver:]
+-[FCAlertView flatGray]
+-[FCAlertView setFlatGray:]
+-[FCAlertView .cxx_destruct]
+_OBJC_IVAR_$_FCAlertView._alertBackground
+_OBJC_IVAR_$_FCAlertView._flatTurquoise
+_OBJC_IVAR_$_FCAlertView._flatGreen
+_OBJC_IVAR_$_FCAlertView._flatBlue
+_OBJC_IVAR_$_FCAlertView._flatMidnight
+_OBJC_IVAR_$_FCAlertView._flatPurple
+_OBJC_IVAR_$_FCAlertView._flatOrange
+_OBJC_IVAR_$_FCAlertView._flatRed
+_OBJC_IVAR_$_FCAlertView._flatSilver
+_OBJC_IVAR_$_FCAlertView._flatGray
+_OBJC_IVAR_$_FCAlertView._numberOfButtons
+_OBJC_IVAR_$_FCAlertView._autoHideSeconds
+_OBJC_IVAR_$_FCAlertView._cornerRadius
+_OBJC_IVAR_$_FCAlertView._dismissOnOutsideTouch
+_OBJC_IVAR_$_FCAlertView._hideAllButtons
+_OBJC_IVAR_$_FCAlertView._hideDoneButton
+_OBJC_IVAR_$_FCAlertView._avoidCustomImageTint
+_OBJC_IVAR_$_FCAlertView._blurBackground
+_OBJC_IVAR_$_FCAlertView._bounceAnimations
+_OBJC_IVAR_$_FCAlertView._darkTheme
+_OBJC_IVAR_$_FCAlertView._detachButtons
+_OBJC_IVAR_$_FCAlertView._fullCircleCustomImage
+_OBJC_IVAR_$_FCAlertView._hideSeparatorLineView
+_OBJC_IVAR_$_FCAlertView._customImageScale
+_OBJC_IVAR_$_FCAlertView._titleFont
+_OBJC_IVAR_$_FCAlertView._subtitleFont
+_OBJC_IVAR_$_FCAlertView._customSpacing
+_OBJC_IVAR_$_FCAlertView._customHeight
+_OBJC_IVAR_$_FCAlertView._overrideForcedDismiss
+_OBJC_IVAR_$_FCAlertView._title
+_OBJC_IVAR_$_FCAlertView._attributedTitle
+_OBJC_IVAR_$_FCAlertView._subTitle
+_OBJC_IVAR_$_FCAlertView._attributedSubTitle
+_OBJC_IVAR_$_FCAlertView._alertBackgroundColor
+_OBJC_IVAR_$_FCAlertView._colorScheme
+_OBJC_IVAR_$_FCAlertView._doneButtonHighlightedBackgroundColor
+_OBJC_IVAR_$_FCAlertView._firstButtonHighlightedBackgroundColor
+_OBJC_IVAR_$_FCAlertView._secondButtonHighlightedBackgroundColor
+_OBJC_IVAR_$_FCAlertView._animateAlertInFromTop
+_OBJC_IVAR_$_FCAlertView._animateAlertInFromLeft
+_OBJC_IVAR_$_FCAlertView._animateAlertInFromRight
+_OBJC_IVAR_$_FCAlertView._animateAlertInFromBottom
+_OBJC_IVAR_$_FCAlertView._ratingBlock
+___block_descriptor_tmp
+___block_descriptor_tmp.409
+___block_descriptor_tmp.419
+_OBJC_IVAR_$_FCAlertView._animateAlertOutToTop
+_OBJC_IVAR_$_FCAlertView._animateAlertOutToLeft
+_OBJC_IVAR_$_FCAlertView._animateAlertOutToRight
+_OBJC_IVAR_$_FCAlertView._animateAlertOutToBottom
+___block_descriptor_tmp.424
+___block_descriptor_tmp.432
+___block_descriptor_tmp.436
+___block_descriptor_tmp.439
+___block_descriptor_tmp.450
+___block_descriptor_tmp.457
+___block_descriptor_tmp.461
+___block_descriptor_tmp.464
+___block_descriptor_tmp.467
+___block_descriptor_tmp.470
+___block_descriptor_tmp.477
+___block_descriptor_tmp.481
+___block_descriptor_tmp.484
+___block_descriptor_tmp.487
+___block_descriptor_tmp.491
+___block_descriptor_tmp.494
+___block_descriptor_tmp.497
+___block_descriptor_tmp.501
+___block_descriptor_tmp.504
+___block_descriptor_tmp.507
+___block_descriptor_tmp.511
+___block_descriptor_tmp.514
+___block_descriptor_tmp.517
+___block_descriptor_tmp.521
+___block_descriptor_tmp.524
+_OBJC_IVAR_$_FCAlertView._delegate
+_OBJC_IVAR_$_FCAlertView._textField
+_OBJC_IVAR_$_FCAlertView._actionBlock
+_OBJC_IVAR_$_FCAlertView._doneBlock
+_OBJC_IVAR_$_FCAlertView._textReturnBlock
+_OBJC_IVAR_$_FCAlertView._titleColor
+_OBJC_IVAR_$_FCAlertView._subTitleColor
+_OBJC_IVAR_$_FCAlertView._doneButtonTitleColor
+_OBJC_IVAR_$_FCAlertView._doneButtonCustomFont
+_OBJC_IVAR_$_FCAlertView._firstButtonTitleColor
+_OBJC_IVAR_$_FCAlertView._firstButtonCustomFont
+_OBJC_IVAR_$_FCAlertView._firstButtonBackgroundColor
+_OBJC_IVAR_$_FCAlertView._secondButtonTitleColor
+_OBJC_IVAR_$_FCAlertView._secondButtonCustomFont
+_OBJC_IVAR_$_FCAlertView._secondButtonBackgroundColor
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_UITextFieldDelegate
+l_OBJC_LABEL_PROTOCOL_$_UITextFieldDelegate
+/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/FCAlertView/FCAlertView/Classes/FCAlertView.m
+/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/FCAlertView/FCAlertView/Classes/FCAlertView.h
+__destroy_helper_block_
+__copy_helper_block_
+__29-[FCAlertView rate5Triggered]_block_invoke_2
+__29-[FCAlertView rate5Triggered]_block_invoke.518
+__29-[FCAlertView rate5Triggered]_block_invoke
+__29-[FCAlertView rate4Triggered]_block_invoke_2
+__29-[FCAlertView rate4Triggered]_block_invoke.508
+__29-[FCAlertView rate4Triggered]_block_invoke
+__29-[FCAlertView rate3Triggered]_block_invoke_2
+__29-[FCAlertView rate3Triggered]_block_invoke.498
+__29-[FCAlertView rate3Triggered]_block_invoke
+__29-[FCAlertView rate2Triggered]_block_invoke_2
+__29-[FCAlertView rate2Triggered]_block_invoke.488
+__29-[FCAlertView rate2Triggered]_block_invoke
+__29-[FCAlertView rate1Triggered]_block_invoke_2
+__29-[FCAlertView rate1Triggered]_block_invoke.478
+__29-[FCAlertView rate1Triggered]_block_invoke
+__38-[FCAlertView textFieldDidEndEditing:]_block_invoke
+__40-[FCAlertView textFieldDidBeginEditing:]_block_invoke
+__26-[FCAlertView btnReleased]_block_invoke_2
+__26-[FCAlertView btnReleased]_block_invoke.458
+__26-[FCAlertView btnReleased]_block_invoke
+__25-[FCAlertView btnTouched]_block_invoke
+__31-[FCAlertView dismissAlertView]_block_invoke.433
+__31-[FCAlertView dismissAlertView]_block_invoke_2
+__31-[FCAlertView dismissAlertView]_block_invoke.425
+__31-[FCAlertView dismissAlertView]_block_invoke
+__28-[FCAlertView showAlertView]_block_invoke_2
+__28-[FCAlertView showAlertView]_block_invoke.406
+__28-[FCAlertView showAlertView]_block_invoke
+UIInterfaceOrientationIsLandscape
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h
+UI_USER_INTERFACE_IDIOM
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIDevice.h
+/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Intermediates.noindex/ArchiveIntermediates/VAP-JOBS/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FCAlertView.build/DerivedSources/FCAlertView_vers.c
+__ZL15__ARCLite__loadv
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL13replaceMethodP10objc_classP13objc_selectorPFP11objc_objectS4_S2_zEPS6_
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+Apple LLVM version 9.0.0 (clang-900.0.39)
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-67/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.o -mlinker-version=305
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-67/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-67
+fixStringForCoreData
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+isdigit
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.Internal.sdk/usr/include/ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+replaceMethod
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_lazy_pointers
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__ARCLite__load
+install_swiftV1
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter
