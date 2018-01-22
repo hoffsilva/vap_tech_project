@@ -12,6 +12,7 @@ provides-dynamic-lookup:
 depends-top-level:
 - "AllJobsDelegate"
 - "AnyObject"
+- "AssignmentPrecedence"
 - "CastingPrecedence"
 - !private "CoreDataStack"
 - !private "Data"
@@ -20,13 +21,17 @@ depends-top-level:
 - "Int"
 - "IntegerLiteralType"
 - !private "JSONSerialization"
+- !private "Job"
 - "JobsController"
 - "Listing"
+- !private "NSBatchDeleteRequest"
 - !private "NSDictionary"
 - !private "NSEntityDescription"
 - !private "NSError"
+- !private "NSFetchRequest"
+- !private "NSFetchRequestResult"
 - !private "NSManagedObject"
-- "NSManagedObjectContext"
+- !private "NSPredicate"
 - !private "Service"
 - "String"
 - !private "StringLiteralType"
@@ -47,6 +52,8 @@ depends-member:
 - !private ["s7CVarArgP", "company"]
 - !private ["s7CVarArgP", "descriptionValue"]
 - !private ["s7CVarArgP", "entity"]
+- !private ["s7CVarArgP", "execute"]
+- !private ["s7CVarArgP", "fetch"]
 - !private ["s7CVarArgP", "id"]
 - ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "jsonObject"]
@@ -55,6 +62,7 @@ depends-member:
 - !private ["s7CVarArgP", "logo"]
 - !private ["s7CVarArgP", "name"]
 - !private ["s7CVarArgP", "perks"]
+- !private ["s7CVarArgP", "predicate"]
 - !private ["s7CVarArgP", "save"]
 - !private ["s7CVarArgP", "setValue"]
 - !private ["s7CVarArgP", "subscript"]
@@ -78,6 +86,8 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "company"]
 - !private ["s28CustomDebugStringConvertibleP", "descriptionValue"]
 - !private ["s28CustomDebugStringConvertibleP", "entity"]
+- !private ["s28CustomDebugStringConvertibleP", "execute"]
+- !private ["s28CustomDebugStringConvertibleP", "fetch"]
 - !private ["s28CustomDebugStringConvertibleP", "id"]
 - ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "jsonObject"]
@@ -86,6 +96,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "logo"]
 - !private ["s28CustomDebugStringConvertibleP", "name"]
 - !private ["s28CustomDebugStringConvertibleP", "perks"]
+- !private ["s28CustomDebugStringConvertibleP", "predicate"]
 - !private ["s28CustomDebugStringConvertibleP", "save"]
 - !private ["s28CustomDebugStringConvertibleP", "setValue"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
@@ -104,6 +115,8 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "company"]
 - !private ["s23CustomStringConvertibleP", "descriptionValue"]
 - !private ["s23CustomStringConvertibleP", "entity"]
+- !private ["s23CustomStringConvertibleP", "execute"]
+- !private ["s23CustomStringConvertibleP", "fetch"]
 - !private ["s23CustomStringConvertibleP", "id"]
 - ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "jsonObject"]
@@ -112,6 +125,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "logo"]
 - !private ["s23CustomStringConvertibleP", "name"]
 - !private ["s23CustomStringConvertibleP", "perks"]
+- !private ["s23CustomStringConvertibleP", "predicate"]
 - !private ["s23CustomStringConvertibleP", "save"]
 - !private ["s23CustomStringConvertibleP", "setValue"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
@@ -131,10 +145,13 @@ depends-member:
 - !private ["s9EquatableP", "company"]
 - !private ["s9EquatableP", "descriptionValue"]
 - !private ["s9EquatableP", "entity"]
+- !private ["s9EquatableP", "execute"]
+- !private ["s9EquatableP", "fetch"]
 - !private ["s9EquatableP", "getAllJobs"]
 - !private ["s9EquatableP", "getJobsByCategory"]
 - !private ["s9EquatableP", "getJobsByLocation"]
 - !private ["s9EquatableP", "getJobsByType"]
+- !private ["s9EquatableP", "getJobsSearchedBy"]
 - !private ["s9EquatableP", "id"]
 - !private ["s9EquatableP", "init"]
 - !private ["s9EquatableP", "jsonObject"]
@@ -143,6 +160,7 @@ depends-member:
 - !private ["s9EquatableP", "logo"]
 - !private ["s9EquatableP", "name"]
 - !private ["s9EquatableP", "perks"]
+- !private ["s9EquatableP", "predicate"]
 - !private ["s9EquatableP", "save"]
 - !private ["s9EquatableP", "setValue"]
 - !private ["s9EquatableP", "title"]
@@ -163,10 +181,13 @@ depends-member:
 - !private ["s8HashableP", "company"]
 - !private ["s8HashableP", "descriptionValue"]
 - !private ["s8HashableP", "entity"]
+- !private ["s8HashableP", "execute"]
+- !private ["s8HashableP", "fetch"]
 - !private ["s8HashableP", "getAllJobs"]
 - !private ["s8HashableP", "getJobsByCategory"]
 - !private ["s8HashableP", "getJobsByLocation"]
 - !private ["s8HashableP", "getJobsByType"]
+- !private ["s8HashableP", "getJobsSearchedBy"]
 - !private ["s8HashableP", "id"]
 - !private ["s8HashableP", "init"]
 - !private ["s8HashableP", "jsonObject"]
@@ -175,6 +196,7 @@ depends-member:
 - !private ["s8HashableP", "logo"]
 - !private ["s8HashableP", "name"]
 - !private ["s8HashableP", "perks"]
+- !private ["s8HashableP", "predicate"]
 - !private ["s8HashableP", "save"]
 - !private ["s8HashableP", "setValue"]
 - !private ["s8HashableP", "title"]
@@ -184,17 +206,22 @@ depends-member:
 - !private ["So17JSONSerializationC", "ReadingOptions"]
 - !private ["So17JSONSerializationC", "jsonObject"]
 - !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- ["8VAP_JOBS3JobC", "deinit"]
 - ["8VAP_JOBS14JobsControllerC", "AllJobsDelegate"]
 - !private ["8VAP_JOBS14JobsControllerC", "CoreDataStack"]
 - !private ["8VAP_JOBS14JobsControllerC", "Data"]
 - ["8VAP_JOBS14JobsControllerC", "Int"]
 - !private ["8VAP_JOBS14JobsControllerC", "JSONSerialization"]
+- !private ["8VAP_JOBS14JobsControllerC", "Job"]
 - ["8VAP_JOBS14JobsControllerC", "Listing"]
+- !private ["8VAP_JOBS14JobsControllerC", "NSBatchDeleteRequest"]
 - !private ["8VAP_JOBS14JobsControllerC", "NSDictionary"]
 - !private ["8VAP_JOBS14JobsControllerC", "NSEntityDescription"]
 - !private ["8VAP_JOBS14JobsControllerC", "NSError"]
+- !private ["8VAP_JOBS14JobsControllerC", "NSFetchRequest"]
+- !private ["8VAP_JOBS14JobsControllerC", "NSFetchRequestResult"]
 - !private ["8VAP_JOBS14JobsControllerC", "NSManagedObject"]
-- ["8VAP_JOBS14JobsControllerC", "NSManagedObjectContext"]
+- !private ["8VAP_JOBS14JobsControllerC", "NSPredicate"]
 - !private ["8VAP_JOBS14JobsControllerC", "Service"]
 - ["8VAP_JOBS14JobsControllerC", "String"]
 - ["8VAP_JOBS14JobsControllerC", "arrayOfJobs"]
@@ -202,15 +229,16 @@ depends-member:
 - ["8VAP_JOBS14JobsControllerC", "getAllJobs"]
 - ["8VAP_JOBS14JobsControllerC", "getJobsByCategory"]
 - ["8VAP_JOBS14JobsControllerC", "getJobsByLocation"]
+- ["8VAP_JOBS14JobsControllerC", "getJobsBySearch"]
 - ["8VAP_JOBS14JobsControllerC", "getJobsByType"]
 - ["8VAP_JOBS14JobsControllerC", "getJobsDataToShowInCell"]
 - ["8VAP_JOBS14JobsControllerC", "init"]
 - ["8VAP_JOBS14JobsControllerC", "jobDelegate"]
-- ["8VAP_JOBS14JobsControllerC", "managedContext"]
 - ["8VAP_JOBS14JobsControllerC", "page"]
 - ["8VAP_JOBS14JobsControllerC", "parseJobs"]
 - !private ["8VAP_JOBS14JobsControllerC", "print"]
 - ["8VAP_JOBS14JobsControllerC", "saveJobsLocally"]
+- ["8VAP_JOBS14JobsControllerC", "searchJobs"]
 - !private ["8VAP_JOBS7ListingC", "applyUrl"]
 - !private ["8VAP_JOBS7ListingC", "company"]
 - !private ["8VAP_JOBS7ListingC", "descriptionValue"]
@@ -238,13 +266,18 @@ depends-member:
 - !private ["s17MutableCollectionP", "append"]
 - ["s17MutableCollectionP", "init"]
 - !private ["s17MutableCollectionP", "subscript"]
+- !private ["So20NSBatchDeleteRequestC", "init"]
 - !private ["So8NSCodingP", "entity"]
+- !private ["So8NSCodingP", "execute"]
+- !private ["So8NSCodingP", "fetch"]
 - !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "predicate"]
 - !private ["So8NSCodingP", "save"]
 - !private ["So8NSCodingP", "userInfo"]
 - !private ["So8NSCodingP", "value"]
 - !private ["So9NSCopyingP", "entity"]
 - !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "predicate"]
 - !private ["So9NSCopyingP", "userInfo"]
 - !private ["So9NSCopyingP", "value"]
 - !private ["So12NSDictionaryC", "value"]
@@ -252,14 +285,20 @@ depends-member:
 - !private ["So7NSErrorC", "userInfo"]
 - !private ["So17NSFastEnumerationP", "entity"]
 - !private ["So17NSFastEnumerationP", "value"]
+- !private ["So14NSFetchRequestC", "init"]
+- !private ["So14NSFetchRequestC", "predicate"]
 - !private ["So20NSFetchRequestResultP", "init"]
 - !private ["So20NSFetchRequestResultP", "setValue"]
 - !private ["So20NSFetchRequestResultP", "value"]
 - !private ["So21NSItemProviderReadingP", "init"]
 - !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So9NSLockingP", "execute"]
+- !private ["So9NSLockingP", "fetch"]
 - !private ["So9NSLockingP", "save"]
 - !private ["So15NSManagedObjectC", "init"]
 - !private ["So15NSManagedObjectC", "setValue"]
+- !private ["So22NSManagedObjectContextC", "execute"]
+- !private ["So22NSManagedObjectContextC", "fetch"]
 - !private ["So22NSManagedObjectContextC", "save"]
 - !private ["So16NSMutableCopyingP", "init"]
 - !private ["So16NSMutableCopyingP", "value"]
@@ -268,6 +307,8 @@ depends-member:
 - !private ["So8NSObjectC", "company"]
 - !private ["So8NSObjectC", "descriptionValue"]
 - !private ["So8NSObjectC", "entity"]
+- !private ["So8NSObjectC", "execute"]
+- !private ["So8NSObjectC", "fetch"]
 - !private ["So8NSObjectC", "id"]
 - !private ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "jsonObject"]
@@ -276,6 +317,7 @@ depends-member:
 - !private ["So8NSObjectC", "logo"]
 - !private ["So8NSObjectC", "name"]
 - !private ["So8NSObjectC", "perks"]
+- !private ["So8NSObjectC", "predicate"]
 - !private ["So8NSObjectC", "save"]
 - !private ["So8NSObjectC", "setValue"]
 - !private ["So8NSObjectC", "title"]
@@ -287,6 +329,8 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "company"]
 - !private ["So16NSObjectProtocolP", "descriptionValue"]
 - !private ["So16NSObjectProtocolP", "entity"]
+- !private ["So16NSObjectProtocolP", "execute"]
+- !private ["So16NSObjectProtocolP", "fetch"]
 - !private ["So16NSObjectProtocolP", "id"]
 - !private ["So16NSObjectProtocolP", "init"]
 - !private ["So16NSObjectProtocolP", "jsonObject"]
@@ -295,12 +339,16 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "logo"]
 - !private ["So16NSObjectProtocolP", "name"]
 - !private ["So16NSObjectProtocolP", "perks"]
+- !private ["So16NSObjectProtocolP", "predicate"]
 - !private ["So16NSObjectProtocolP", "save"]
 - !private ["So16NSObjectProtocolP", "setValue"]
 - !private ["So16NSObjectProtocolP", "title"]
 - !private ["So16NSObjectProtocolP", "url"]
 - !private ["So16NSObjectProtocolP", "userInfo"]
 - !private ["So16NSObjectProtocolP", "value"]
+- !private ["So24NSPersistentStoreRequestC", "init"]
+- !private ["So24NSPersistentStoreRequestC", "predicate"]
+- !private ["So11NSPredicateC", "init"]
 - !private ["So14NSSecureCodingP", "init"]
 - !private ["So14NSSecureCodingP", "userInfo"]
 - !private ["So14NSSecureCodingP", "value"]
@@ -317,11 +365,13 @@ depends-member:
 - !private ["s16RawRepresentableP", "getJobsByCategory"]
 - !private ["s16RawRepresentableP", "getJobsByLocation"]
 - !private ["s16RawRepresentableP", "getJobsByType"]
+- !private ["s16RawRepresentableP", "getJobsSearchedBy"]
 - !private ["So17JSONSerializationC14ReadingOptionsV", "allowFragments"]
 - !private ["8VAP_JOBS12RequestLinksO", "getAllJobs"]
 - !private ["8VAP_JOBS12RequestLinksO", "getJobsByCategory"]
 - !private ["8VAP_JOBS12RequestLinksO", "getJobsByLocation"]
 - !private ["8VAP_JOBS12RequestLinksO", "getJobsByType"]
+- !private ["8VAP_JOBS12RequestLinksO", "getJobsSearchedBy"]
 - !private ["s8SequenceP", "append"]
 - ["s8SequenceP", "init"]
 - !private ["s8SequenceP", "subscript"]
@@ -361,6 +411,8 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "company"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "descriptionValue"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "entity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "execute"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fetch"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "id"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "jsonObject"]
@@ -369,6 +421,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "logo"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "perks"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "predicate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "save"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "setValue"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
@@ -413,6 +466,7 @@ depends-nominal:
 - !private "s8HashableP"
 - !private "So17JSONSerializationC"
 - !private "10SwiftyJSON17JSONSubscriptTypeP"
+- "8VAP_JOBS3JobC"
 - "8VAP_JOBS14JobsControllerC"
 - !private "8VAP_JOBS7ListingC"
 - !private "8VAP_JOBS8LocationC"
@@ -420,12 +474,14 @@ depends-nominal:
 - !private "s10MirrorPathP"
 - !private "8VAP_JOBS5ModelC"
 - "s17MutableCollectionP"
+- !private "So20NSBatchDeleteRequestC"
 - !private "So8NSCodingP"
 - !private "So9NSCopyingP"
 - !private "So12NSDictionaryC"
 - !private "So19NSEntityDescriptionC"
 - !private "So7NSErrorC"
 - !private "So17NSFastEnumerationP"
+- !private "So14NSFetchRequestC"
 - !private "So20NSFetchRequestResultP"
 - !private "So21NSItemProviderReadingP"
 - !private "So21NSItemProviderWritingP"
@@ -435,6 +491,8 @@ depends-nominal:
 - !private "So16NSMutableCopyingP"
 - !private "So8NSObjectC"
 - !private "So16NSObjectProtocolP"
+- !private "So24NSPersistentStoreRequestC"
+- !private "So11NSPredicateC"
 - !private "So14NSSecureCodingP"
 - !private "So8NSStringC"
 - !private "s9OptionSetP"
@@ -518,4 +576,4 @@ depends-external:
 - "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
 - "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
 - "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
-interface-hash: "144f84e638e5e280d31bffc2f1fc9e4b"
+interface-hash: "2ff743c974098499d69b67ac4524f21a"

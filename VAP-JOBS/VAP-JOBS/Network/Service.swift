@@ -36,6 +36,8 @@ class Service {
         if !verifyConnection() {
             let error = ReachabilityError.notConnection
             handlerObject(error)
+            let vc = UIViewController()
+            vc.noticeTop("No internet connection..😕")
             return
         }
         

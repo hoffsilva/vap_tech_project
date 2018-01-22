@@ -4,12 +4,12 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
+      'name': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Alamofire-Swift.h",
-          'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+          'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
         },
         {
           'type': 'file',
@@ -20,23 +20,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules",
+      'name': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+          'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/FCAlertView/FCAlertView.framework/Headers",
+      'name': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphoneos/FCAlertView/FCAlertView.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "FCAlertView-Swift.h",
-          'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/FCAlertView/FCAlertView.framework/Headers/FCAlertView-Swift.h"
+          'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphoneos/FCAlertView/FCAlertView.framework/Headers/FCAlertView-Swift.h"
         },
         {
           'type': 'file',
@@ -52,18 +52,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/FCAlertView/FCAlertView.framework/Modules",
+      'name': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphoneos/FCAlertView/FCAlertView.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FCAlertView.build/module.modulemap"
+          'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FCAlertView.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/Pods_VAP_JOBS.framework/Headers",
+      'name': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphoneos/Pods_VAP_JOBS.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -73,24 +73,24 @@
         {
           'type': 'file',
           'name': "Pods_VAP_JOBS-Swift.h",
-          'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/Pods_VAP_JOBS.framework/Headers/Pods_VAP_JOBS-Swift.h"
+          'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphoneos/Pods_VAP_JOBS.framework/Headers/Pods_VAP_JOBS-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/Pods_VAP_JOBS.framework/Modules",
+      'name': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphoneos/Pods_VAP_JOBS.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-VAP-JOBS.build/module.modulemap"
+          'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pods-VAP-JOBS.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers",
+      'name': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -115,7 +115,7 @@
         {
           'type': 'file',
           'name': "SDWebImage-Swift.h",
-          'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-Swift.h"
+          'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImage-Swift.h"
         },
         {
           'type': 'file',
@@ -226,23 +226,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules",
+      'name': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SDWebImage.build/module.modulemap"
+          'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImage.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers",
+      'name': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "SwiftyJSON-Swift.h",
-          'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+          'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
         },
         {
           'type': 'file',
@@ -253,12 +253,12 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules",
+      'name': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SwiftyJSON.build/module.modulemap"
+          'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftyJSON.build/module.modulemap"
         }
       ]
     }

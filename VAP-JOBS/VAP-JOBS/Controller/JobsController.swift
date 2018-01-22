@@ -28,8 +28,9 @@ class JobsController {
                 self.jobDelegate?.showError(message: error.description)
                 return
             }
+            
+           
             self.parseJobs(response: response)
-            self.saveJobsLocally()
         }
     }
     
@@ -54,7 +55,6 @@ class JobsController {
         }
     }
     
-    
     func getJobsByType(typeOfJob: String) {
         Service.shared.fetch(requestLink: .getJobsByType, parameters: ["idOfType":typeOfJob]) { (response) in
             if let error = Service.verifyResult(response) {
@@ -65,6 +65,17 @@ class JobsController {
         }
     }
     
+    func getJobsBySearch(parameter: String) {
+        Service.shared.fetch(requestLink: .getJobsSearchedBy, parameters: ["searchArgument" : parameter]) { (response) in
+            if let error = Service.verifyResult(response) {
+                self.jobDelegate?.showError(message: error.description)
+                return
+            }
+            self.parseJobs(response: response)
+        }
+    }
+    
+       
     func parseJobs(response: Any?) {
         let parsedResponse = (try! JSONSerialization.jsonObject(with: response as! Data, options: JSONSerialization.ReadingOptions.allowFragments)) as! NSDictionary
         
@@ -83,61 +94,6 @@ class JobsController {
             self.arrayOfJobs.append(newListing)
         }
         self.jobDelegate?.loadAllJobs()
-    }
-    
-    func saveJobsLocally() {
-        
-        let coreDataStack = CoreDataStack(modelName: "VAP_JOBS")
-        
-        let mc = coreDataStack.managedContext
-        
-        let jobEntity = NSEntityDescription.entity(forEntityName: "Job", in: mc)
-        let job = NSManagedObject(entity: jobEntity!, insertInto: mc)
-        
-        for item in arrayOfJobs {
-            if let applyURL = item.applyUrl {
-                job.setValue(applyURL, forKey: "applyUrl")
-            }
-            if let companyLocation = item.company?.location?.name {
-                job.setValue(companyLocation, forKey: "companyLocation")
-            }
-            if let companyLogo = item.company?.logo {
-                job.setValue(companyLogo, forKey: "companyLogo")
-            }
-            if let companyName = item.company?.name {
-                job.setValue(companyName, forKey: "companyName")
-            }
-            if let companyUrl = item.company?.url {
-                job.setValue(companyUrl, forKey: "companyUrl")
-            }
-            if let descriptionValue = item.descriptionValue {
-                job.setValue(descriptionValue, forKey: "descriptionValue")
-            }
-            if let howtoApply = item.applyUrl {
-                job.setValue(howtoApply, forKey: "howtoApply")
-            }
-            if let id = item.id {
-                job.setValue(id, forKey: "id")
-            }
-            if let keywords = item.keywords {
-                job.setValue(keywords, forKey: "keywords")
-            }
-            if let perks = item.perks {
-                job.setValue(perks, forKey: "perks")
-            }
-            if let title = item.title {
-                job.setValue(title, forKey: "title")
-            }
-            if let url = item.url {
-                job.setValue(url, forKey: "url")
-            }
-            do {
-                try mc.save()
-            } catch let error as NSError {
-                print("Try to save: \(error), \(error.userInfo)")
-            }
-        }
-        
     }
     
     func getJobsDataToShowInCell(job: Int) -> Listing {

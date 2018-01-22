@@ -13,13 +13,9 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    lazy var coreDataStack = CoreDataStack(modelName: "VAP_JOBS")
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         EnvironmentLinks.shared.current = .authenticjobs
-        let job = JobsController()
-        job.managedContext = coreDataStack.managedContext
-        
         return true
     }
 
@@ -28,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationDidEnterBackground(_ application: UIApplication) {
-        coreDataStack.saveContext()
+       
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
@@ -41,7 +37,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         
-        coreDataStack.saveContext()
+       
     }
 }
 

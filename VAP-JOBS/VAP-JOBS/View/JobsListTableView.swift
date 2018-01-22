@@ -11,39 +11,64 @@ import SDWebImage
 
 class JobsListTableView: UITableViewController {
     
+    @IBOutlet weak var alertHeaderView: UIView!
+    
     var jobsController = JobsController()
     var selectJob: Int!
     var isFiltering = false
     let searchController = UISearchController(searchResultsController: nil)
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.pleaseWait()
         configureSearchBar()
         definesPresentationContext = true
         jobsController.jobDelegate = self
         if !isFiltering {
             jobsController.getAllJobs()
         }
+        tableView.refreshControl = UIRefreshControl()
+        tableView.refreshControl?.attributedTitle = NSAttributedString(string: "Update Jobs list")
+        tableView.refreshControl?.addTarget(self, action: #selector(loadJobsList), for: .valueChanged)
         
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
     // MARK: - Table view data source
-
+    
+    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        if jobsController.arrayOfJobs.count == 0 {
+            alertHeaderView.isHidden = false
+            return alertHeaderView
+        } else {
+            alertHeaderView.isHidden = true
+            return alertHeaderView
+        }
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        if jobsController.arrayOfJobs.count == 0 {
+            return tableView.frame.height/2
+        } else {
+            return 1
+        }
+    }
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
-
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return jobsController.arrayOfJobs.count
     }
-
+    
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "jobcell", for: indexPath) as! JobTableViewCell
@@ -67,9 +92,14 @@ class JobsListTableView: UITableViewController {
     override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         if indexPath.row == jobsController.arrayOfJobs.count-1 {
             jobsController.page += 1
-            self.pleaseWait()
             jobsController.getAllJobs()
-        }
+        } 
+    }
+    
+    @objc
+    @IBAction func loadJobsList() {
+        pleaseWait()
+        jobsController.getAllJobs()
     }
     
     @IBAction func openCompanySite(_ sender: UIButton) {
@@ -84,7 +114,7 @@ class JobsListTableView: UITableViewController {
         selectJob = indexPath.row
         performSegue(withIdentifier: "segueDetailJob", sender: self)
     }
-
+    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "segueDetailJob" {
@@ -96,7 +126,7 @@ class JobsListTableView: UITableViewController {
     func configureSearchBar() {
         searchController.searchResultsUpdater = self
         searchController.obscuresBackgroundDuringPresentation = false
-        searchController.searchBar.placeholder = "Search Jobs"
+        searchController.searchBar.placeholder = "Search Jobs keywords separated by comma."
         if #available(iOS 11.0, *) {
             navigationItem.searchController = searchController
         } else {
@@ -108,8 +138,10 @@ class JobsListTableView: UITableViewController {
 
 extension JobsListTableView: AllJobsDelegate {
     func loadAllJobs() {
-        tableView.reloadData()
+        tableView.refreshControl?.endRefreshing()
         self.clearAllNotice()
+        tableView.reloadData()
+        tableView.reloadInputViews()
     }
     
     func showError(message: String) {
@@ -118,12 +150,10 @@ extension JobsListTableView: AllJobsDelegate {
     }
 }
 
-extension JobsListTableView: UISearchResultsUpdating {
+extension JobsListTableView: UISearchResultsUpdating, UISearchControllerDelegate {
     func updateSearchResults(for searchController: UISearchController) {
-        print("sas")
+        jobsController.arrayOfJobs.removeAll()
+        tableView.reloadData()
+        jobsController.getJobsBySearch(parameter: searchController.searchBar.text!)
     }
-    
-    
-    
-    
 }

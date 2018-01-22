@@ -38,7 +38,7 @@
                         <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="kXz-at-a4s">
-                        <rect key="frame" x="0.0" y="20" width="320" height="93"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
@@ -59,7 +59,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="93e-DX-AQz">
-                                <rect key="frame" x="16" y="129" width="288" height="29"/>
+                                <rect key="frame" x="16" y="132" width="288" height="29"/>
                                 <segments>
                                     <segment title="Category"/>
                                     <segment title="Location"/>
@@ -71,7 +71,7 @@
                                 </connections>
                             </segmentedControl>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Sfi-ee-nR4">
-                                <rect key="frame" x="0.0" y="165" width="320" height="351"/>
+                                <rect key="frame" x="0.0" y="168" width="320" height="348"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <outlet property="dataSource" destination="EUN-0H-tKT" id="eHX-s4-7Fo"/>
@@ -113,9 +113,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="nOW-ce-3Ry">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No content...😳 Try again!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Yf-X5-z4R">
+                                    <rect key="frame" x="59.5" y="11" width="201" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9tC-K2-I4u">
+                                    <rect key="frame" x="128.5" y="62" width="63" height="30"/>
+                                    <state key="normal" title="Try again"/>
+                                    <connections>
+                                        <action selector="loadJobsList" destination="OKD-8i-P12" eventType="touchUpInside" id="FoF-ey-tSu"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="9tC-K2-I4u" firstAttribute="top" secondItem="3Yf-X5-z4R" secondAttribute="bottom" constant="30" id="Ga8-wT-tHR"/>
+                                <constraint firstItem="3Yf-X5-z4R" firstAttribute="centerX" secondItem="nOW-ce-3Ry" secondAttribute="centerX" id="bfR-Ie-akc"/>
+                                <constraint firstItem="3Yf-X5-z4R" firstAttribute="centerY" secondItem="nOW-ce-3Ry" secondAttribute="centerY" id="gTM-74-HQG"/>
+                                <constraint firstItem="9tC-K2-I4u" firstAttribute="centerX" secondItem="nOW-ce-3Ry" secondAttribute="centerX" id="u75-yb-1EA"/>
+                            </constraints>
+                        </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="jobcell" rowHeight="150" id="qxp-FO-gjb" customClass="JobTableViewCell" customModule="VAP_JOBS" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="320" height="150"/>
+                                <rect key="frame" x="0.0" y="72" width="320" height="150"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qxp-FO-gjb" id="zOH-2V-vl5">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="149.5"/>
@@ -192,6 +218,7 @@
                     </tabBarItem>
                     <navigationItem key="navigationItem" title="Jobs List" id="x6Q-VJ-SYw"/>
                     <connections>
+                        <outlet property="alertHeaderView" destination="nOW-ce-3Ry" id="g8X-cm-O41"/>
                         <segue destination="vAC-fF-ChG" kind="show" identifier="segueDetailJob" id="uAJ-Ts-JrT"/>
                     </connections>
                 </tableViewController>
@@ -440,7 +467,7 @@
                 <navigationController id="xuL-m8-8nx" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" selectedImage="list" id="hTZ-Ac-DhC"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="Tea-ge-pNe">
-                        <rect key="frame" x="0.0" y="20" width="320" height="93"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>

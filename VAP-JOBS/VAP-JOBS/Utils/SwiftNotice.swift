@@ -19,7 +19,7 @@ extension UIResponder {
     }
     // api changed from v3.3
     @discardableResult
-    func noticeTop(_ text: String, autoClear: Bool = true, autoClearTime: Int = 1) -> UIWindow{
+    func noticeTop(_ text: String, autoClear: Bool = true, autoClearTime: Int = 3) -> UIWindow{
         return SwiftNotice.noticeOnStatusBar(text, autoClear: autoClear, autoClearTime: autoClearTime)
     }
     
@@ -106,8 +106,10 @@ class SwiftNotice: NSObject {
         let window = UIWindow()
         window.backgroundColor = UIColor.clear
         let view = UIView()
-        view.backgroundColor = UIColor(red: 0x6a/0x100, green: 0xb4/0x100, blue: 0x9f/0x100, alpha: 1)
-        
+//        view.backgroundColor = UIColor(red: 0x6a/0x100, green: 0xb4/0x100, blue: 0x9f/0x100, alpha: 1)
+
+        view.backgroundColor = #colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)
+
         let label = UILabel(frame: frame.height > 20 ? CGRect(x: frame.origin.x, y: frame.origin.y + frame.height - 17, width: frame.width, height: 20) : frame)
         label.textAlignment = NSTextAlignment.center
         label.font = UIFont.systemFont(ofSize: 12)

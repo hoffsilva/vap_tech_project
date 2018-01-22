@@ -20,7 +20,6 @@ depends-top-level:
 - !private "BooleanLiteralType"
 - "CoreDataStack"
 - !private "EnvironmentLinks"
-- !private "JobsController"
 - "StringLiteralType"
 - "UIApplication"
 - "UIApplicationDelegate"
@@ -31,7 +30,6 @@ depends-member:
 - ["8VAP_JOBS11AppDelegateC", "Bool"]
 - ["8VAP_JOBS11AppDelegateC", "CoreDataStack"]
 - !private ["8VAP_JOBS11AppDelegateC", "EnvironmentLinks"]
-- !private ["8VAP_JOBS11AppDelegateC", "JobsController"]
 - ["8VAP_JOBS11AppDelegateC", "UIApplication"]
 - ["8VAP_JOBS11AppDelegateC", "UIApplicationLaunchOptionsKey"]
 - ["8VAP_JOBS11AppDelegateC", "UIWindow"]
@@ -56,7 +54,6 @@ depends-member:
 - !private ["Sb", "_getBuiltinLogicValue"]
 - ["s7CVarArgP", "CoreDataStack"]
 - !private ["s7CVarArgP", "EnvironmentLinks"]
-- !private ["s7CVarArgP", "JobsController"]
 - ["s7CVarArgP", "application"]
 - ["s7CVarArgP", "applicationDidBecomeActive"]
 - ["s7CVarArgP", "applicationDidEnterBackground"]
@@ -76,11 +73,9 @@ depends-member:
 - !private ["s10CollectionP", "init"]
 - !private ["s10ComparableP", "init"]
 - ["8VAP_JOBS13CoreDataStackC", "init"]
-- !private ["8VAP_JOBS13CoreDataStackC", "managedContext"]
 - !private ["8VAP_JOBS13CoreDataStackC", "saveContext"]
 - ["s28CustomDebugStringConvertibleP", "CoreDataStack"]
 - !private ["s28CustomDebugStringConvertibleP", "EnvironmentLinks"]
-- !private ["s28CustomDebugStringConvertibleP", "JobsController"]
 - ["s28CustomDebugStringConvertibleP", "application"]
 - ["s28CustomDebugStringConvertibleP", "applicationDidBecomeActive"]
 - ["s28CustomDebugStringConvertibleP", "applicationDidEnterBackground"]
@@ -105,7 +100,6 @@ depends-member:
 - !private ["s17CustomReflectableP", "init"]
 - ["s23CustomStringConvertibleP", "CoreDataStack"]
 - !private ["s23CustomStringConvertibleP", "EnvironmentLinks"]
-- !private ["s23CustomStringConvertibleP", "JobsController"]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - ["s23CustomStringConvertibleP", "application"]
 - ["s23CustomStringConvertibleP", "applicationDidBecomeActive"]
@@ -134,7 +128,6 @@ depends-member:
 - !private ["8VAP_JOBS16EnvironmentLinksC", "shared"]
 - ["s9EquatableP", "CoreDataStack"]
 - !private ["s9EquatableP", "EnvironmentLinks"]
-- !private ["s9EquatableP", "JobsController"]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - ["s9EquatableP", "application"]
 - ["s9EquatableP", "applicationDidBecomeActive"]
@@ -160,7 +153,6 @@ depends-member:
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - ["s8HashableP", "CoreDataStack"]
 - !private ["s8HashableP", "EnvironmentLinks"]
-- !private ["s8HashableP", "JobsController"]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
 - ["s8HashableP", "application"]
 - ["s8HashableP", "applicationDidBecomeActive"]
@@ -180,8 +172,6 @@ depends-member:
 - ["s8HashableP", "window"]
 - ["s8HashableP", ""]
 - !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
-- !private ["8VAP_JOBS14JobsControllerC", "init"]
-- !private ["8VAP_JOBS14JobsControllerC", "managedContext"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
@@ -193,7 +183,6 @@ depends-member:
 - ["So8NSObjectC", "Bool"]
 - ["So8NSObjectC", "CoreDataStack"]
 - !private ["So8NSObjectC", "EnvironmentLinks"]
-- !private ["So8NSObjectC", "JobsController"]
 - ["So8NSObjectC", "UIApplication"]
 - ["So8NSObjectC", "UIApplicationLaunchOptionsKey"]
 - ["So8NSObjectC", "UIWindow"]
@@ -215,7 +204,6 @@ depends-member:
 - ["So8NSObjectC", "window"]
 - ["So16NSObjectProtocolP", "CoreDataStack"]
 - !private ["So16NSObjectProtocolP", "EnvironmentLinks"]
-- !private ["So16NSObjectProtocolP", "JobsController"]
 - ["So16NSObjectProtocolP", "application"]
 - ["So16NSObjectProtocolP", "applicationDidBecomeActive"]
 - ["So16NSObjectProtocolP", "applicationDidEnterBackground"]
@@ -244,7 +232,6 @@ depends-member:
 - !private ["s20TextOutputStreamableP", "init"]
 - ["So21UIApplicationDelegateP", "CoreDataStack"]
 - !private ["So21UIApplicationDelegateP", "EnvironmentLinks"]
-- !private ["So21UIApplicationDelegateP", "JobsController"]
 - ["So21UIApplicationDelegateP", "application"]
 - ["So21UIApplicationDelegateP", "applicationDidBecomeActive"]
 - ["So21UIApplicationDelegateP", "applicationDidEnterBackground"]
@@ -262,7 +249,6 @@ depends-member:
 - ["So21UIApplicationDelegateP", ""]
 - ["So30UIPasteConfigurationSupportingP", "CoreDataStack"]
 - !private ["So30UIPasteConfigurationSupportingP", "EnvironmentLinks"]
-- !private ["So30UIPasteConfigurationSupportingP", "JobsController"]
 - ["So30UIPasteConfigurationSupportingP", "application"]
 - ["So30UIPasteConfigurationSupportingP", "applicationDidBecomeActive"]
 - ["So30UIPasteConfigurationSupportingP", "applicationDidEnterBackground"]
@@ -282,7 +268,6 @@ depends-member:
 - ["So11UIResponderC", "Bool"]
 - ["So11UIResponderC", "CoreDataStack"]
 - !private ["So11UIResponderC", "EnvironmentLinks"]
-- !private ["So11UIResponderC", "JobsController"]
 - ["So11UIResponderC", "UIApplication"]
 - ["So11UIResponderC", "UIApplicationLaunchOptionsKey"]
 - ["So11UIResponderC", "UIWindow"]
@@ -305,7 +290,6 @@ depends-member:
 - ["So11UIResponderC", ""]
 - ["So30UIResponderStandardEditActionsP", "CoreDataStack"]
 - !private ["So30UIResponderStandardEditActionsP", "EnvironmentLinks"]
-- !private ["So30UIResponderStandardEditActionsP", "JobsController"]
 - ["So30UIResponderStandardEditActionsP", "application"]
 - ["So30UIResponderStandardEditActionsP", "applicationDidBecomeActive"]
 - ["So30UIResponderStandardEditActionsP", "applicationDidEnterBackground"]
@@ -335,7 +319,6 @@ depends-member:
 - !private ["s14_IndexableBaseP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "CoreDataStack"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "EnvironmentLinks"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "JobsController"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "application"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidBecomeActive"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidEnterBackground"]
@@ -381,7 +364,6 @@ depends-nominal:
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
 - "s8HashableP"
 - !private "10SwiftyJSON17JSONSubscriptTypeP"
-- !private "8VAP_JOBS14JobsControllerC"
 - !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
 - !private "So8NSCodingP"

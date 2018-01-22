@@ -39,14 +39,10 @@
 		CACA82632012104E004804C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACA82622012104E004804C3 /* AppDelegate.swift */; };
 		CACA82652012104E004804C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACA82642012104E004804C3 /* ViewController.swift */; };
 		CACA82682012104E004804C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CACA82662012104E004804C3 /* Main.storyboard */; };
-		CACA826B2012104E004804C3 /* VAP_JOBS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CACA82692012104E004804C3 /* VAP_JOBS.xcdatamodeld */; };
 		CACA826D2012104E004804C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CACA826C2012104E004804C3 /* Assets.xcassets */; };
 		CACA82702012104E004804C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CACA826E2012104E004804C3 /* LaunchScreen.storyboard */; };
 		CACA827B2012104F004804C3 /* VAP_JOBSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACA827A2012104F004804C3 /* VAP_JOBSTests.swift */; };
 		CACA82872012136F004804C3 /* SwiftNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACA82862012136F004804C3 /* SwiftNotice.swift */; };
-		CAD99948201616D500B2D434 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD99947201616D500B2D434 /* CoreDataStack.swift */; };
-		CAD9995020161D2C00B2D434 /* Job+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9994F20161D2B00B2D434 /* Job+CoreDataProperties.swift */; };
-		CAD9995220161D4600B2D434 /* Job+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9995120161D4600B2D434 /* Job+CoreDataClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,7 +92,6 @@
 		CACA82622012104E004804C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CACA82642012104E004804C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CACA82672012104E004804C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CACA826A2012104E004804C3 /* VAP_JOBS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VAP_JOBS.xcdatamodel; sourceTree = "<group>"; };
 		CACA826C2012104E004804C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CACA826F2012104E004804C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CACA82712012104F004804C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -104,9 +99,6 @@
 		CACA827A2012104F004804C3 /* VAP_JOBSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VAP_JOBSTests.swift; sourceTree = "<group>"; };
 		CACA827C2012104F004804C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CACA82862012136F004804C3 /* SwiftNotice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNotice.swift; sourceTree = "<group>"; };
-		CAD99947201616D500B2D434 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
-		CAD9994F20161D2B00B2D434 /* Job+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Job+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		CAD9995120161D4600B2D434 /* Job+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Job+CoreDataClass.swift"; sourceTree = "<group>"; };
 		DA3CD8A64B8E707F0C25EDA9 /* Pods_VAP_JOBSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VAP_JOBSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -218,7 +210,6 @@
 		CACA82612012104E004804C3 /* VAP-JOBS */ = {
 			isa = PBXGroup;
 			children = (
-				CAD99946201616A000B2D434 /* Persistence */,
 				43531D0E2013CA6A00DBA6C2 /* View */,
 				43531D0D2013CA4500DBA6C2 /* Controller */,
 				433191C22012C0AA00B76201 /* Network */,
@@ -230,7 +221,6 @@
 				CACA826C2012104E004804C3 /* Assets.xcassets */,
 				CACA826E2012104E004804C3 /* LaunchScreen.storyboard */,
 				CACA82712012104F004804C3 /* Info.plist */,
-				CACA82692012104E004804C3 /* VAP_JOBS.xcdatamodeld */,
 			);
 			path = "VAP-JOBS";
 			sourceTree = "<group>";
@@ -251,16 +241,6 @@
 				CACA82862012136F004804C3 /* SwiftNotice.swift */,
 			);
 			path = Utils;
-			sourceTree = "<group>";
-		};
-		CAD99946201616A000B2D434 /* Persistence */ = {
-			isa = PBXGroup;
-			children = (
-				CAD9995120161D4600B2D434 /* Job+CoreDataClass.swift */,
-				CAD9994F20161D2B00B2D434 /* Job+CoreDataProperties.swift */,
-				CAD99947201616D500B2D434 /* CoreDataStack.swift */,
-			);
-			path = Persistence;
 			sourceTree = "<group>";
 		};
 		FBE90667CAFA1ADE42CE3E4D /* Frameworks */ = {
@@ -492,7 +472,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CACA82652012104E004804C3 /* ViewController.swift in Sources */,
-				CACA826B2012104E004804C3 /* VAP_JOBS.xcdatamodeld in Sources */,
 				433191CE2012C0C000B76201 /* Service.swift in Sources */,
 				43531D0C2013A5EB00DBA6C2 /* Locations.swift in Sources */,
 				43531D0B2013A5EB00DBA6C2 /* Types.swift in Sources */,
@@ -504,11 +483,8 @@
 				43531D182014E61B00DBA6C2 /* DetailJobTableView.swift in Sources */,
 				43531D142013E73C00DBA6C2 /* JobsController.swift in Sources */,
 				433191D02012C0D400B76201 /* Model.swift in Sources */,
-				CAD9995020161D2C00B2D434 /* Job+CoreDataProperties.swift in Sources */,
 				433191D22012C61B00B76201 /* ResponseData.swift in Sources */,
 				43531D102013CABF00DBA6C2 /* FilterJobsView.swift in Sources */,
-				CAD99948201616D500B2D434 /* CoreDataStack.swift in Sources */,
-				CAD9995220161D4600B2D434 /* Job+CoreDataClass.swift in Sources */,
 				43531D0A2013A5EB00DBA6C2 /* Categories.swift in Sources */,
 				CACA82632012104E004804C3 /* AppDelegate.swift in Sources */,
 				43531D122013CB1100DBA6C2 /* JobsListTableView.swift in Sources */,
@@ -772,19 +748,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		CACA82692012104E004804C3 /* VAP_JOBS.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				CACA826A2012104E004804C3 /* VAP_JOBS.xcdatamodel */,
-			);
-			currentVersion = CACA826A2012104E004804C3 /* VAP_JOBS.xcdatamodel */;
-			path = VAP_JOBS.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = CACA82572012104E004804C3 /* Project object */;
 }
