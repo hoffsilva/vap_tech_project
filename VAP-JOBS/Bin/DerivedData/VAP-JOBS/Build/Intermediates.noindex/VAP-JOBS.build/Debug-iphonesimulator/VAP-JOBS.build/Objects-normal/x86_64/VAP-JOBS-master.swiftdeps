@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
 options: "0f579ffaa077e63b78954b79fc9366cd"
-build_time: [1516627398, 904266000]
+build_time: [1516638903, 245063000]
 inputs:
   "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/VAP-JOBS/ViewController.swift": [1516361934, 0]
   "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/VAP-JOBS/Network/Service.swift": [1516616631, 0]
@@ -12,13 +12,13 @@ inputs:
   "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/VAP-JOBS/Models/AuthenticJobsBaseClass.swift": [1516616631, 0]
   "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/VAP-JOBS/View/JobTableViewCell.swift": [1516616631, 0]
   "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/VAP-JOBS/View/DetailJobTableView.swift": [1516616631, 0]
-  "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/VAP-JOBS/Controller/JobsController.swift": [1516626412, 0]
+  "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/VAP-JOBS/Controller/JobsController.swift": [1516638902, 0]
   "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/VAP-JOBS/Models/Model.swift": [1516616631, 0]
   "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/VAP-JOBS/Persistence/Job+CoreDataProperties.swift": [1516627265, 0]
   "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/VAP-JOBS/Models/ResponseData.swift": [1516616631, 0]
   "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/VAP-JOBS/View/FilterJobsView.swift": [1516616631, 0]
   "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/VAP-JOBS/Persistence/CoreDataStack.swift": [1516626354, 0]
-  "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/VAP-JOBS/Persistence/Job+CoreDataClass.swift": [9223372036, 854775807]
+  "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/VAP-JOBS/Persistence/Job+CoreDataClass.swift": [1516627265, 0]
   "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/VAP-JOBS/Models/Categories.swift": [1516616631, 0]
   "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/VAP-JOBS/AppDelegate.swift": [1516627032, 0]
   "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/VAP-JOBS/View/JobsListTableView.swift": [1516624775, 0]
