@@ -1,0 +1,257 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EnvironmentLinks"
+- "EnvironmentBase"
+- "RequestLinks"
+provides-nominal:
+- "8VAP_JOBS16EnvironmentLinksC"
+- "8VAP_JOBS15EnvironmentBaseO"
+- "8VAP_JOBS12RequestLinksO"
+provides-member:
+- ["8VAP_JOBS16EnvironmentLinksC", ""]
+- ["8VAP_JOBS15EnvironmentBaseO", ""]
+- ["8VAP_JOBS12RequestLinksO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "EnvironmentBase"
+- "EnvironmentLinks"
+- "RequestLinks"
+- "String"
+- "StringLiteralType"
+- !private "~="
+depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "hashValue"]
+- ["s7CVarArgP", "init"]
+- ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "hashValue"]
+- ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "hashValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "hashValue"]
+- ["s9EncodableP", "init"]
+- ["8VAP_JOBS15EnvironmentBaseO", "RawValue"]
+- ["8VAP_JOBS15EnvironmentBaseO", "authenticjobs"]
+- ["8VAP_JOBS15EnvironmentBaseO", "deinit"]
+- ["8VAP_JOBS15EnvironmentBaseO", "hashValue"]
+- ["8VAP_JOBS15EnvironmentBaseO", "init"]
+- ["8VAP_JOBS15EnvironmentBaseO", "rawValue"]
+- ["8VAP_JOBS16EnvironmentLinksC", "EnvironmentBase"]
+- ["8VAP_JOBS16EnvironmentLinksC", "EnvironmentLinks"]
+- ["8VAP_JOBS16EnvironmentLinksC", "current"]
+- ["8VAP_JOBS16EnvironmentLinksC", "deinit"]
+- ["8VAP_JOBS16EnvironmentLinksC", "init"]
+- ["8VAP_JOBS16EnvironmentLinksC", "shared"]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "rawValue"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- ["s8HashableP", "RawValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "rawValue"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "hashValue"]
+- ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "hashValue"]
+- ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "init"]
+- ["So9NSCopyingP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So16NSObjectProtocolP", "init"]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- !private ["s7NumericP", "hashValue"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "rawValue"]
+- ["s16RawRepresentableP", ""]
+- ["8VAP_JOBS12RequestLinksO", "RawValue"]
+- ["8VAP_JOBS12RequestLinksO", "deinit"]
+- ["8VAP_JOBS12RequestLinksO", "getAllJobs"]
+- ["8VAP_JOBS12RequestLinksO", "getCategories"]
+- ["8VAP_JOBS12RequestLinksO", "getJobsByCategory"]
+- ["8VAP_JOBS12RequestLinksO", "getJobsByLocation"]
+- ["8VAP_JOBS12RequestLinksO", "getJobsByType"]
+- ["8VAP_JOBS12RequestLinksO", "getJobsSearchedBy"]
+- ["8VAP_JOBS12RequestLinksO", "getLocations"]
+- ["8VAP_JOBS12RequestLinksO", "getTypes"]
+- ["8VAP_JOBS12RequestLinksO", "hashValue"]
+- ["8VAP_JOBS12RequestLinksO", "init"]
+- ["8VAP_JOBS12RequestLinksO", "rawValue"]
+- ["s8SequenceP", "init"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["s10StrideableP", "hashValue"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- ["s14_IndexableBaseP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "hashValue"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "8VAP_JOBS15EnvironmentBaseO"
+- "8VAP_JOBS16EnvironmentLinksC"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- "10SwiftyJSON17JSONSubscriptTypeP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "s7NumericP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "8VAP_JOBS12RequestLinksO"
+- "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "9Alamofire14URLConvertibleP"
+- "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSImage+WebCache.h"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageFrame.h"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageGIFCoder.h"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageImageIOCoder.h"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCoder.h"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCodersManager.h"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCoderHelper.h"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+interface-hash: "f5837777dc5e64253990b7db98fc0e7b"

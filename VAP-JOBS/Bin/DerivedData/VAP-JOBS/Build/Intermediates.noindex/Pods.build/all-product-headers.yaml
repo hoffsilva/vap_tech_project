@@ -124,13 +124,23 @@
         },
         {
           'type': 'file',
-          'name': "SDWebImageCompat.h",
-          'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/SDWebImage/SDWebImage/SDWebImageCompat.h"
+          'name': "SDWebImageCoder.h",
+          'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/SDWebImage/SDWebImage/SDWebImageCoder.h"
         },
         {
           'type': 'file',
-          'name': "SDWebImageDecoder.h",
-          'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/SDWebImage/SDWebImage/SDWebImageDecoder.h"
+          'name': "SDWebImageCoderHelper.h",
+          'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/SDWebImage/SDWebImage/SDWebImageCoderHelper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageCodersManager.h",
+          'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/SDWebImage/SDWebImage/SDWebImageCodersManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageCompat.h",
+          'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/SDWebImage/SDWebImage/SDWebImageCompat.h"
         },
         {
           'type': 'file',
@@ -141,6 +151,21 @@
           'type': 'file',
           'name': "SDWebImageDownloaderOperation.h",
           'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageFrame.h",
+          'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/SDWebImage/SDWebImage/SDWebImageFrame.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageGIFCoder.h",
+          'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/SDWebImage/SDWebImage/SDWebImageGIFCoder.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageImageIOCoder.h",
+          'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/SDWebImage/SDWebImage/SDWebImageImageIOCoder.h"
         },
         {
           'type': 'file',
@@ -161,6 +186,11 @@
           'type': 'file',
           'name': "UIButton+WebCache.h",
           'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/SDWebImage/SDWebImage/UIButton+WebCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+ForceDecode.h",
+          'external-contents': "/Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/SDWebImage/SDWebImage/UIImage+ForceDecode.h"
         },
         {
           'type': 'file',

@@ -6,7 +6,7 @@ target 'VAP-JOBS' do
   use_frameworks!
 
   # Pods for VAP-JOBS
-	pod 'Alamofire', '~> 4.4'
+	pod 'Alamofire', '4.6.0'
 	pod 'SwiftyJSON'
 	pod 'SDWebImage', '~> 4.0'
 	pod 'FCAlertView'

@@ -1,0 +1,3 @@
+dependencies: \
+  /Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Pods/Target\ Support\ Files/Pods-VAP-JOBS/Pods-VAP-JOBS-dummy.m \
+  /Users/hoff.silva/Documents/Personal/Git/vap_tech_project/VAP-JOBS/Bin/DerivedData/VAP-JOBS/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-VAP-JOBS.build/module.modulemap

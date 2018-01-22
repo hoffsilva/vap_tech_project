@@ -173,6 +173,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if __has_feature(modules)
 @import UIKit;
+@import ObjectiveC;
+@import Foundation;
+@import CoreGraphics;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -199,8 +202,186 @@ SWIFT_CLASS("_TtC8VAP_JOBS11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+SWIFT_CLASS("_TtC8VAP_JOBS5Model")
+@interface Model : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC8VAP_JOBS22AuthenticJobsBaseClass")
+@interface AuthenticJobsBaseClass : Model
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC8VAP_JOBS10Categories")
+@interface Categories : Model
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC8VAP_JOBS8Category")
+@interface Category : Model
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC8VAP_JOBS7Company")
+@interface Company : Model
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIImageView;
+@class UILabel;
+@class UIWebView;
+@class NSLayoutConstraint;
+@class UITextView;
+@class UITableView;
+@class UIButton;
 @class NSBundle;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC8VAP_JOBS18DetailJobTableView")
+@interface DetailJobTableView : UITableViewController
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified companyImageView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified companyNameLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified companyLocationLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified titleOfJobLabel;
+@property (nonatomic, weak) IBOutlet UIWebView * _Null_unspecified descriptionofJobWebView;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified heightOfDescriptionConstrait;
+@property (nonatomic, weak) IBOutlet UIWebView * _Null_unspecified perksOkJobWebView;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified heigthOfPerksContraint;
+@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified keywordsOfJobTextView;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified heigthOfKeywords;
+- (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
+- (void)didReceiveMemoryWarning;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (IBAction)applyToJob:(UIButton * _Nonnull)sender;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UISegmentedControl;
+@class UITableViewCell;
+@class UIStoryboardSegue;
+
+SWIFT_CLASS("_TtC8VAP_JOBS14FilterJobsView")
+@interface FilterJobsView : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableview;
+@property (nonatomic, weak) IBOutlet UISegmentedControl * _Null_unspecified segmentedControlFilter;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (IBAction)filterJobs:(UISegmentedControl * _Nonnull)sender;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+
+
+
+
+
+SWIFT_CLASS("_TtC8VAP_JOBS16JobTableViewCell")
+@interface JobTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified imageOfCompany;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified titleOfPositionLabel;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified siteOfCompany;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified locationOfPositionLabel;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC8VAP_JOBS17JobsListTableView")
+@interface JobsListTableView : UITableViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView willDisplayCell:(UITableViewCell * _Nonnull)cell forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (IBAction)openCompanySite:(UIButton * _Nonnull)sender;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+
+SWIFT_CLASS("_TtC8VAP_JOBS7Listing")
+@interface Listing : Model
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC8VAP_JOBS8Listings")
+@interface Listings : Model
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC8VAP_JOBS8Location")
+@interface Location : Model
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC8VAP_JOBS9Locations")
+@interface Locations : Model
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+SWIFT_CLASS("_TtC8VAP_JOBS12ResponseData")
+@interface ResponseData : Model
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC8VAP_JOBS11SwiftNotice")
+@interface SwiftNotice : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface SwiftNotice (SWIFT_EXTENSION(VAP_JOBS))
++ (void)hideNotice:(id _Nonnull)sender;
+@end
+
+
+SWIFT_CLASS("_TtC8VAP_JOBS4Type")
+@interface Type : Model
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC8VAP_JOBS5Types")
+@interface Types : Model
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+
+
 
 SWIFT_CLASS("_TtC8VAP_JOBS14ViewController")
 @interface ViewController : UIViewController

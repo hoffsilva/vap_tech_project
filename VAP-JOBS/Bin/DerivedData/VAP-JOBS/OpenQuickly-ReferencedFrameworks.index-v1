@@ -3,12 +3,14 @@
 <plist version="1.0">
 <array>
 	<string>Foundation</string>
+	<string>SwiftyJSON</string>
 	<string>CoreData</string>
 	<string>AppKit</string>
-	<string>objc</string>
+	<string>CommonCrypto</string>
 	<string>Dispatch</string>
 	<string>AVFoundation</string>
 	<string>QuartzCore</string>
+	<string>Alamofire</string>
 	<string>SDWebImage</string>
 	<string>VAP</string>
 	<string>CoreServices</string>
@@ -20,6 +22,6 @@
 	<string>ImageIO</string>
 	<string>Cocoa</string>
 	<string>AudioToolbox</string>
-	<string>CommonCrypto</string>
+	<string>objc</string>
 </array>
 </plist>
