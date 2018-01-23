@@ -27,7 +27,7 @@ class DetailJobTableView: UITableViewController {
     @IBOutlet weak var heigthOfKeywords: NSLayoutConstraint!
     
     var job = Listing()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setDataJob()
@@ -45,25 +45,23 @@ class DetailJobTableView: UITableViewController {
             })
         }
         
-        companyNameLabel.text = job.company?.name ?? "adasfdaf"
-        companyLocationLabel.text = job.company?.location?.name ?? "asdadasd"
+        companyNameLabel.text = job.company?.name ?? ""
+        companyLocationLabel.text = job.company?.location?.name ?? ""
         titleOfJobLabel.text = job.title ?? "..."
-
+        
         descriptionofJobWebView.scrollView.isScrollEnabled = false
-        heightOfDescriptionConstrait.constant = CGFloat(job.descriptionValue!.characters.count/2)
+        heightOfDescriptionConstrait.constant = CGFloat(job.descriptionValue!.count/2)
         descriptionofJobWebView.loadHTMLString(job.descriptionValue! , baseURL: nil)
         
         perksOkJobWebView.scrollView.isScrollEnabled = false
         if let perks = job.perks {
-            heigthOfPerksContraint.constant = CGFloat((job.perks?.characters.count)!/2)
-            perksOkJobWebView.loadHTMLString(job.perks ?? "fdsfsdsdfs", baseURL: nil)
+            heigthOfPerksContraint.constant = CGFloat((perks.count)/2)
+            perksOkJobWebView.loadHTMLString(perks, baseURL: nil)
         }
         if let kw = job.keywords {
-            heigthOfKeywords.constant = CGFloat(kw.characters.count/2)
-            keywordsOfJobTextView.text = job.keywords ?? "asdadsdasd"
+            heigthOfKeywords.constant = CGFloat(kw.count/2)
+            keywordsOfJobTextView.text = kw
         }
-        
-       
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -72,22 +70,18 @@ class DetailJobTableView: UITableViewController {
         tableView.reloadData()
     }
     
-    
-    
-    
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
     // MARK: - Table view data source
-
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
-
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return 6
@@ -103,5 +97,5 @@ class DetailJobTableView: UITableViewController {
         }
     }
     
-
+    
 }
