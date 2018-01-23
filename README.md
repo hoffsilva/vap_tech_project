@@ -11,11 +11,9 @@ Filtering jobs.
 * Storyboard, using Auto Layout.
 * Use UITableView to show Jobs list.
 * App Universal: the app will be execute in all iOS devices.
-* CoreData: Save the favorites jobs.
 * Connection fail treatment: Alert user when the device doesn't has internet connection.
 * Infinite Scroll.
 * Connection with authenticjobs rest api.
-* TDD.
 
 ## Used Libraries
 
@@ -30,14 +28,6 @@ Filtering jobs.
 ### SDWebImage
 
 * [SDWebImage] (https://github.com/rs/SDWebImage) Assyncron image loader.
-
-### Core Data
-
-* [Core Data] (https://developer.apple.com/documentation/coredata) Manage object graphs and object lifecycle, including persistence.
-
-### FCAlertView
-
-* [FCAlertView] (https://github.com/krispenney/FCAlertView) custom alertview for iOS.
 
 ### SwiftNotice
 
