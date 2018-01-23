@@ -37,7 +37,6 @@
 		43531D1E201532F500DBA6C2 /* TypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43531D1D201532F500DBA6C2 /* TypeController.swift */; };
 		A000656AA12EBCDFC7C6BE44 /* Pods_VAP_JOBS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9D1BCB2D189962911EB429 /* Pods_VAP_JOBS.framework */; };
 		CACA82632012104E004804C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACA82622012104E004804C3 /* AppDelegate.swift */; };
-		CACA82652012104E004804C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACA82642012104E004804C3 /* ViewController.swift */; };
 		CACA82682012104E004804C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CACA82662012104E004804C3 /* Main.storyboard */; };
 		CACA826D2012104E004804C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CACA826C2012104E004804C3 /* Assets.xcassets */; };
 		CACA82702012104E004804C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CACA826E2012104E004804C3 /* LaunchScreen.storyboard */; };
@@ -90,7 +89,6 @@
 		C8AAD61F56BF6EE1B39CE37D /* Pods-VAP-JOBSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VAP-JOBSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VAP-JOBSTests/Pods-VAP-JOBSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CACA825F2012104E004804C3 /* VAP-JOBS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VAP-JOBS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CACA82622012104E004804C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CACA82642012104E004804C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CACA82672012104E004804C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CACA826C2012104E004804C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CACA826F2012104E004804C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -216,7 +214,6 @@
 				433191542012BBD000B76201 /* Models */,
 				CACA82852012133C004804C3 /* Utils */,
 				CACA82622012104E004804C3 /* AppDelegate.swift */,
-				CACA82642012104E004804C3 /* ViewController.swift */,
 				CACA82662012104E004804C3 /* Main.storyboard */,
 				CACA826C2012104E004804C3 /* Assets.xcassets */,
 				CACA826E2012104E004804C3 /* LaunchScreen.storyboard */,
@@ -471,7 +468,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CACA82652012104E004804C3 /* ViewController.swift in Sources */,
 				433191CE2012C0C000B76201 /* Service.swift in Sources */,
 				43531D0C2013A5EB00DBA6C2 /* Locations.swift in Sources */,
 				43531D0B2013A5EB00DBA6C2 /* Types.swift in Sources */,

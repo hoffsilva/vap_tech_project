@@ -28,8 +28,6 @@ class JobsController {
                 self.jobDelegate?.showError(message: error.description)
                 return
             }
-            
-           
             self.parseJobs(response: response)
         }
     }

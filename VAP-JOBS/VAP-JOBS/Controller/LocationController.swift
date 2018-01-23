@@ -37,15 +37,12 @@ class LocationController {
                 self.locationDelegate?.showError(message: "Load jobs error. 😕")
                 return
             }
-            
             self.arrayOfLocation.removeAll()
-            
             for loca in location {
                 print(loca)
                 let newLocation = Location(object: loca)
                 self.arrayOfLocation.append(newLocation)
             }
-            
             self.locationDelegate?.loadLocationSuccessful()
         }
     }

@@ -40,8 +40,8 @@ class Connection  {
     
     static func setHeaders() {
         let headers = [
-            "Accept": "application/vnd.twitchtv.v5+json",
-            "Client-ID" : "9uzthbq3e4iglncryagtk2u32pxai3"
+            "Accept": "application/json",
+            "Client-ID" : ""
         ]
         Connection.shared.headers = headers
     }
